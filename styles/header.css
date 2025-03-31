@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100vw;
+    background-color: #005CFF;
+    color: #fff;
+    gap: 4px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+
+
+.swiper-slide span{
+    background-color: #7120bd;
+    border-radius: 7px;
+    font-size: 22px;
+}
+
+.swiper-slide p{
+    font-style: italic;
+    background-color: #005CFF; 
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav-menu{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu .banner{
+    margin-right: 65.42px;
+}
+
+.nav-menu .search input{
+    height: 38px;
+    width: 594px;
+    border-radius: 10px;
+    border: 1px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.nav-menu .profile{
+    display: flex;
+    margin-left: 275px;
+    gap: 24px;
+}
+
+.profile_user, .categories {
+    gap:8px;
+    display:flex;
+    align-items: center;
+
+}
+ .home-menu{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories{
+    font-weight: 700;
+}
