@@ -1,0 +1,36 @@
+.signup{
+    width:1260px;
+    height:227px;
+    display: flex;
+    flex-direction: column;
+    padding: 61px 0 40px 0;
+    align-items: center;
+    gap: 24px;
+}
+
+.signup__title{
+    width: 301px;
+    height: 27px;
+}
+
+.signup__title h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: calc(20px* 0);
+    
+}
+
+.signup__title span{
+    color: #005cff;
+}
+
+.signup__form{
+    width:1260px;
+    height:176px;
+    background-color: #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;;
+}

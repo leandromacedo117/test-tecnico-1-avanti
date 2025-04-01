@@ -4,11 +4,22 @@
   margin: 0;
   text-decoration: none;
   font-size: 14px;
+  border: none;
 }
 
 button {
   background-color: #005cff;
   color: #fff;
+  width: 222px;
+  height:40px;
+  border-radius: 8px;
+}
+
+input{
+  width: 280px;
+  height:48px;
+  border-radius: 8px;
+  
 }
 
 .content-wrapper {

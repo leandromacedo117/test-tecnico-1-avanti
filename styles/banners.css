@@ -188,3 +188,23 @@ div .text__titles {
 .specification__container p {
   white-space: pre;
 }
+
+
+  .second-banner{
+    width: 1920px;
+    height:660px;
+    background-size: cover;
+    background-image: url('../assets/footer/banner2.png');
+  }
+
+  .second-banner div{
+    top: .5;
+    left: .5;
+    position: absolute;
+    width:1920px;
+    height:132px;
+    background-color: #005cff;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
