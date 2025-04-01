@@ -1,0 +1,98 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  max-width: 1160px;
+  height: 170px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container__social {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 194px;
+  height: 93px;
+  gap: 40px;
+}
+
+.container__social img {
+  width: 152.12px;
+  height: 27px;
+}
+
+.social__media {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  max-width: 194px;
+  height: 26px;
+  gap: 30px;
+}
+
+.container__service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 11px;
+}
+
+.container__service h4 {
+  width: 111px;
+  height: 19px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1;
+}
+.container__service div h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #303030;
+}
+
+.footer__payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0;
+  width: 100%;
+  max-width: 545.29px;
+  height: 24px;
+  gap: 34.22px;
+}
+
+.footer__message p {
+  text-align: center;
+  padding: 40px 0;
+  width: 100%;
+  max-width: 1144px;
+  height: 59px;
+  font-size: 12px;
+  color: #303030;
+}
+
+.footer__sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.sponsors__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
