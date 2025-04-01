@@ -1,36 +1,63 @@
-.signup{
-    width:1260px;
-    height:227px;
-    display: flex;
-    flex-direction: column;
-    padding: 61px 0 40px 0;
-    align-items: center;
-    gap: 24px;
+.signup {
+  width: 100%;
+  max-width: 1260px;
+  height: 227px;
+  display: flex;
+  flex-direction: column;
+  padding: 61px 0 40px 0;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
-.signup__title{
-    width: 301px;
-    height: 27px;
+.signup__title {
+  width: 301px;
+  height: 27px;
 }
 
-.signup__title h4{
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1;
-    letter-spacing: calc(20px* 0);
-    
+.signup__title h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: calc(20px * 0);
 }
 
-.signup__title span{
-    color: #005cff;
+.signup__title span {
+  color: #005cff;
 }
 
-.signup__form{
-    width:1260px;
-    height:176px;
-    background-color: #DEDEDE;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;;
+.signup__form {
+  width: 100%;
+  height: 176px;
+  background-color: #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.signup__form .form__checkbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.form__checkbox label {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  width: 278px;
+  height: 16px;
+  color: #656565;
+}
+label .signup__link {
+  font-size: 12px;
+}
+
+.signup__btn {
+  width: 121px;
+  height: 48px;
+  padding: 10px 24px;
+  gap: 10px;
 }
