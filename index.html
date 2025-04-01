@@ -22,11 +22,13 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          Ganhe <span> R$10,00 </span> de desconto no seu primeiro pedido.
-          Utilize o cupom
-          <p>DESCONTO10</p>
+          <div class="slide__text">
+            Ganhe <span> R$10,00 </span> de desconto no seu primeiro pedido.
+            Utilize o cupom
+            <p>DESCONTO10</p>
+          </div>
         </div>
-        <div class="swiper-slide">
+        <div class="slide__text">
           Ganhe <span>R$10,00 </span> de desconto no seu primeiro pedido.
           Utilize o cupom
           <p>DESCONTO10</p>
@@ -35,17 +37,17 @@
     </div>
 
     <!--Menu-->
-    <nav class="nav-menu">
-      <div class="banner">
+    <nav class="menu">
+      <div class="menu__banner">
         <img class="logo" src="./assets/header/logo-avanti.svg" />
       </div>
 
-      <div class="search">
+      <div class="menu__search">
         <input type="text" placeholder="Digite o que você procura" />
         <img src="./assets/header/search.svg" alt="" />
       </div>
-      <div class="profile">
-        <div class="profile_user">
+      <div class="menu__profile">
+        <div class="profile__user">
           <img src="/assets/header/user.svg" />
           <pre>Olá,
 Nome cliente!</pre>
@@ -53,77 +55,78 @@ Nome cliente!</pre>
         <img src="./assets/header/shopping.svg" alt="" />
       </div>
     </nav>
-    <div class="home-menu">
-      <div class="categories">
+    <div class="category">
+      <div class="category__imagem">
         <img src="./assets/header/menu.svg" alt="" />
         <p>Todas as Categorias</p>
       </div>
-      <div class="departamento">Departamento</div>
-      <div class="departamento">Departamento</div>
-      <div class="departamento">Departamento</div>
-      <div class="departamento">Departamento</div>
-      <div class="departamento">Departamento</div>
-      <div class="departamento">Departamento</div>
-      <div class="departamento">Departamento</div>
-      <div class="departamento">Departamento</div>
+      <div class="category__departamento">Departamento</div>
+      <div class="category__departamento">Departamento</div>
+      <div class="category__departamento">Departamento</div>
+      <div class="category__departamento">Departamento</div>
+      <div class="category__departamento">Departamento</div>
+      <div class="category__departamento">Departamento</div>
+      <div class="category__departamento">Departamento</div>
+      <div class="category__departamento">Departamento</div>
     </div>
   </header>
   <main>
-    <div class="banner-image">
-      <img src="./assets/header/banner1.png" alt="" />
+    <div class="main-banner">
+      <img class="main-banner__img" src="./assets/header/banner1.png" alt="" />
 
-      <div class="banner-title">
-        <p class="title-promo"><span>SUPER</span>SALE</p>
-        <p class="title-p">itens selecionados com até</p>
-        <p class="title-off">50%OFF</p>
+      <div class="main-banner__text">
+        <p class="text__title"><span>SUPER</span>SALE</p>
+        <p class="text__big">itens selecionados com até</p>
+        <p class="title__small">50%OFF</p>
       </div>
     </div>
-    <div class="produts">
-      <div class="produts-title">
+    <div class="product">
+      <div class="produts__title">
         <h3>Lançamentos</h3>
         <p><a href="#">Ver mais</a></p>
       </div>
-      <div class="produts-cointaner">
+      <div class="produts__cointaner">
         <div>
           <img src="./assets/products/product.png" alt="" />
         </div>
-        <div class="produts-container-text">
-          <div>
+        <div class="container__text">
+          <div class="text__description">
             <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
             <span>R$ 100,00</span>
             <p>R$79,90</p>
           </div>
 
-          <div>10% off</div>
+          <p class="text__promo">10% off</p>
         </div>
         <p>Ou em até 10x de R$ 7,90</p>
-        <button class="produts-button">Comprar</button>
+        <button class="product__btn">Comprar</button>
       </div>
-      <div class="produts-cointaner">
+      <div class="produts__cointaner">
         <div>
           <img src="./assets/products/product.png" alt="" />
         </div>
-        <div class="produts-container-text">
-          <div>
+        <div class="container__text">
+          <div class="text__description">
             <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
             <span>R$ 100,00</span>
             <p>R$79,90</p>
           </div>
 
-          <div>10% off</div>
+          <p class="text__promo">10% off</p>
         </div>
         <p>Ou em até 10x de R$ 7,90</p>
-        <button class="produts-button">Comprar</button>
+        <button class="product__btn">Comprar</button>
       </div>
     </div>
 
-    <div class="produt-description">
-      <div>
-        <img src="./assets/products/productMug.png" alt="" />
-      </div>
-      <div class="descript-produt">
-        <h1>LOREM IPSUN</h1>
-        <pre>
+    <section class="content-wrapper">
+      <div class="banner">
+        <div class="banner__img">
+          <img src="./assets/products/productMug.png" alt="" />
+        </div>
+        <div class="banner__text">
+          <h2 class="banner__title">lorem ipsum</h2>
+          <p>
             Duis consectetur metus nec lacus auctor dignissim.
             Mauris vitae finibus dui. Mauris laoreet lacus ut
             eleifend viverra. Cras efficitur volutpat dui, in lobortis
@@ -131,9 +134,10 @@ Nome cliente!</pre>
             pulvinar ligula hendrerit a. Maecenas fringilla porttitor
             tortor eget lacinia. Donec sollicitudin euismod orci,
             auctor fringilla magna consequat interdum. Fusce
-            sagittis elit a libero commodo egestas efficitur id augue.                  
-          </pre>
-        <pre>
+            sagittis elit a libero commodo egestas efficitur id
+            augue.
+          </p>
+          <p>
             Duis consectetur metus nec lacus auctor dignissim.
             Mauris vitae finibus dui. Mauris laoreet lacus ut
             eleifend viverra. Cras efficitur volutpat dui, in lobortis
@@ -141,64 +145,69 @@ Nome cliente!</pre>
             pulvinar ligula hendrerit a. Maecenas fringilla porttitor
             tortor eget lacinia. Donec sollicitudin euismod orci,
             auctor fringilla magna consequat interdum. Fusce
-            sagittis elit a libero commodo egestas efficitur id augue.                  
-          </pre>
+            sagittis elit a libero commodo egestas efficitur id
+            augue.
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="produt-specification">
-      <div>
-        <h1>LOREM IPSUM</h1>
-
+    <section class="content-wrapper--gray">
+      <div class="banner__specification">
         <div class="specification">
-          <div>
-            <img src="./assets/products/map-pin.svg" alt="" />
-          </div>
-          <pre>
+          <h1 class="specification__title">LOREM IPSUM</h1>
+
+          <div class="specification__container">
+            <div class="container__img">
+              <img src="./assets/products/map-pin.svg" alt="" />
+            </div>
+            <p>
               Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient
               montes, nascetur ridiculus mus. Donec
               quam felis, ultricies nec, pellentesque
-              eu, pretium quis, sem. 
-            </pre>
-        </div>
-        <div class="specification">
-          <div>
-            <img src="./assets/products/map-pin.svg" alt="" />
+              eu, pretium quis, sem.
+            </p>
           </div>
-          <pre>
+          <div class="specification__container">
+            <div class="container__img">
+              <img src="./assets/products/map-pin.svg" alt="" />
+            </div>
+            <p>
               Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient
               montes, nascetur ridiculus mus. Donec
               quam felis, ultricies nec, pellentesque
-              eu, pretium quis, sem. 
-            </pre>
-        </div>
-        <div class="specification">
-          <div>
-            <img src="./assets/products/map-pin.svg" alt="" />
+              eu, pretium quis, sem.
+            </p>
           </div>
-          <pre>
+          <div class="specification__container">
+            <div class="container__img">
+              <img src="./assets/products/map-pin.svg" alt="" />
+            </div>
+            <p>
               Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient
               montes, nascetur ridiculus mus. Donec
               quam felis, ultricies nec, pellentesque
-              eu, pretium quis, sem. 
-            </pre>
+              eu, pretium quis, sem.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/products/productDescription.png" alt="" />
         </div>
       </div>
-      <div>
-        <img src="./assets/products/productDescription.png" alt="" />
-      </div>
-    </div>
+    </section>
 
-    <div class="produt-description">
-      <div>
-        <img src="./assets/products/productMug.png" alt="" />
-      </div>
-      <div class="descript-produt">
-        <h1>LOREM IPSUN</h1>
-        <pre>
+    <section class="content-wrapper">
+      <div class="banner">
+        <div class="banner__img">
+          <img src="./assets/products/productMug.png" alt="" />
+        </div>
+        <div class="banner__text">
+          <h2 class="banner__title">lorem ipsum</h2>
+          <p>
             Duis consectetur metus nec lacus auctor dignissim.
             Mauris vitae finibus dui. Mauris laoreet lacus ut
             eleifend viverra. Cras efficitur volutpat dui, in lobortis
@@ -206,9 +215,10 @@ Nome cliente!</pre>
             pulvinar ligula hendrerit a. Maecenas fringilla porttitor
             tortor eget lacinia. Donec sollicitudin euismod orci,
             auctor fringilla magna consequat interdum. Fusce
-            sagittis elit a libero commodo egestas efficitur id augue.                  
-          </pre>
-        <pre>
+            sagittis elit a libero commodo egestas efficitur id
+            augue.
+          </p>
+          <p>
             Duis consectetur metus nec lacus auctor dignissim.
             Mauris vitae finibus dui. Mauris laoreet lacus ut
             eleifend viverra. Cras efficitur volutpat dui, in lobortis
@@ -216,66 +226,68 @@ Nome cliente!</pre>
             pulvinar ligula hendrerit a. Maecenas fringilla porttitor
             tortor eget lacinia. Donec sollicitudin euismod orci,
             auctor fringilla magna consequat interdum. Fusce
-            sagittis elit a libero commodo egestas efficitur id augue.                  
-          </pre>
+            sagittis elit a libero commodo egestas efficitur id
+            augue.
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="produts">
-      <div class="produts-title">
+    <div class="product">
+      <div class="produts__title">
         <h3>Lançamentos</h3>
         <p><a href="#">Ver mais</a></p>
       </div>
-      <div class="produts-cointaner">
+      <div class="produts__cointaner">
         <div>
           <img src="./assets/products/product.png" alt="" />
         </div>
-        <div class="produts-container-text">
-          <div>
+        <div class="container__text">
+          <div class="text__description">
             <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
             <span>R$ 100,00</span>
             <p>R$79,90</p>
           </div>
 
-          <div>10% off</div>
+          <p class="text__promo">10% off</p>
         </div>
         <p>Ou em até 10x de R$ 7,90</p>
-        <button class="produts-button">Comprar</button>
+        <button class="product__btn">Comprar</button>
       </div>
-      <div class="produts-cointaner">
+      <div class="produts__cointaner">
         <div>
           <img src="./assets/products/product.png" alt="" />
         </div>
-        <div class="produts-container-text">
-          <div>
+        <div class="container__text">
+          <div class="text__description">
             <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
             <span>R$ 100,00</span>
             <p>R$79,90</p>
           </div>
 
-          <div>10% off</div>
+          <p class="text__promo">10% off</p>
         </div>
         <p>Ou em até 10x de R$ 7,90</p>
-        <button class="produts-button">Comprar</button>
+        <button class="product__btn">Comprar</button>
       </div>
     </div>
-    <div class="banner-contat">
-      <p>
+    <div class="banner">
+      <p class="banner__title">
         Entre em contato conosco e verifique a disponibilidade para sua
         região!
       </p>
     </div>
 
-    <div class="sign-up">
+    <div class="signup">
       <input type="text" placeholder="Digite seu nome" />
       <input type="text" placeholder="Digite seu e-mail" />
       <input type="checkbox" name="" />
-      <label for="">Estou de acordo com a <a href="">Política de Privacidade</a></label>
-      <button>Cadastrar</button>
+      <label for="">Estou de acordo com a <a href="" class="signup__link">Política de Privacidade</a></label>
+      <button class="signup__btn">Cadastrar</button>
     </div>
   </main>
-  <footer>
-    <div class="footer-container">
+  <footer class="">
+    <div class="footer">
       <div class="social-container">
         <img src="./assets/header/logo-avanti.svg" alt="" />
         <div class="social-media">
@@ -309,7 +321,7 @@ Nome cliente!</pre>
         </h5>
       </div>
     </div>
-    <div class="payment">
+    <div class="footer__payment">
       <img src="./assets/footer/payment/amex.svg" alt="" />
       <img src="./assets/footer/payment/União 32.svg" alt="" />
       <img src="./assets/footer/payment/visa.svg" alt="" />
@@ -320,18 +332,18 @@ Nome cliente!</pre>
       <img src="./assets/footer/payment/pix" alt="" />
       <img src="./assets/footer/payment/boleto.svg" alt="" />
     </div>
-    <div class="message">
+    <div class="footer__message">
       <pre>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
           tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla
           facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
         </pre>
-      <div class="patrocinadores">
-        <div>
+      <div class="footer__sponsors">
+        <div class="sponsors__container">
           <img src="./assets/footer/let.svg" alt="" />
           <img src="./assets/footer/vtex-pci-200.svg" alt="" />
         </div>
-        <div>
+        <div class="sponsors__container">
           <img src="./assets/footer/VTEX_Logo (1) 1.svg" alt="" />
           <img src="./assets/header/logo-avanti.svg" alt="" />
         </div>
