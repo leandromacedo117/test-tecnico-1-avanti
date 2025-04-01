@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #E7E7EA;
 }
 
 .main-banner__img {
