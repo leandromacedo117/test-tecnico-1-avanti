@@ -1,1133 +1,1191 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/lucide@0.17.0/dist/lucide.min.css"
-    />
-    <link rel="stylesheet" href="./styles/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <body>
-    <header>
-      <!-- Swiper JS -->
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="slide__text">
-              Ganhe <span> R$10,00 </span> de desconto no seu primeiro pedido.
-              Utilize o cupom
-              <p>DESCONTO10</p>
-            </div>
-          </div>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide@0.17.0/dist/lucide.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Swiper JS -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
           <div class="slide__text">
-            Ganhe <span>R$10,00 </span> de desconto no seu primeiro pedido.
+            Ganhe <span> R$10,00 </span> de desconto no seu primeiro pedido.
             Utilize o cupom
             <p>DESCONTO10</p>
           </div>
         </div>
-      </div>
-
-      <!--Menu-->
-      <div class="menu">
-        <div class="menu__banner">
-          <img class="logo" src="./assets/header/logo-avanti.svg" />
-        </div>
-
-        <div class="menu__search">
-          <input type="text" placeholder="Digite o que você procura" />
-          <img src="./assets/header/search.svg" alt="" />
-        </div>
-        <div class="menu__profile">
-          <div class="profile__user">
-            <img src="/assets/header/user.svg" />
-            <pre>
-Olá,
-Nome cliente!</pre
-            >
-          </div>
-          <div class="menu__shoppingcart">
-            <div class="shoppingcart__title"><p>2</p></div>
-            <img src="./assets/header/shopping.svg" alt="" />
-          </div>
+        <div class="slide__text">
+          Ganhe <span>R$10,00 </span> de desconto no seu primeiro pedido.
+          Utilize o cupom
+          <p>DESCONTO10</p>
         </div>
       </div>
-      <nav class="category">
-        <div class="category__department category__department--main">
-          <div class="department--main__container">
-            <img src="./assets/header/menu.svg" class="category__icon" alt="" />
-            <a href="#" class="category__link-main">Todas as Categorias</a>
+    </div>
+
+    <!--Menu-->
+    <div class="menu">
+      <div class="menu__banner">
+        <img class="logo" src="./assets/header/logo-avanti.svg" />
+      </div>
+
+      <div class="menu__search">
+        <input type="text" placeholder="Digite o que você procura" />
+        <img src="./assets/header/search.svg" alt="" />
+      </div>
+      <div class="menu__profile">
+        <div class="profile__user">
+          <img src="/assets/header/user.svg" />
+          <p>Olá, Nome cliente!</p>
+        </div>
+        <div class="menu__shoppingcart">
+          <div class="shoppingcart__title">
+            <p>2</p>
           </div>
-          <div class="category__child">
-            <div class="category-child__menuItems">
-              <div class="category-child__menuList">
-                <div class="list-department">
-                  <ul class="list-department__containerAllCategory">
-                    <li class="li">
-                        <div class="list-item">
-                            <a href="#">Departamento</a>
-                            <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-item">
-                            <a href="#">Departamento</a>
-                            <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-item">
-                            <a href="#">Departamento</a>
-                            <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-item">
-                            <a href="#">Departamento</a>
-                            <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-item">
-                            <a href="#">Departamento</a>
-                            <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-item">
-                            <a href="#">Departamento</a>
-                            <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-item">
-                            <a href="#">Departamento</a>
-                            <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                        </div>
-                    </li>
-                    <li>
-                      <div class="list-item">
-                          <a href="#">Departamento</a>
-                          <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                      </div>
-                  </li>
-                  <li>
-                      <div class="list-item">
-                          <a href="#">Departamento</a>
-                          <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                      </div>
-                  </li>
-                  <li>
-                      <div class="list-item">
-                          <a href="#">Departamento</a>
-                          <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                      </div>
-                  </li>
-                  <li>
-                      <div class="list-item">
-                          <a href="#">Departamento</a>
-                          <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
-                      </div>
+          <img src="./assets/header/shopping.svg" width="24" height="24" />
+        </div>
+      </div>
+    </div>
+    <nav class="category">
+      <div class="category__department category__department--main category__department--with-children">
+        <div class="department--main__container">
+          <img src="./assets/header/menu.svg" class="category__icon" alt="" />
+          <a href="#" class="category__link-main">Todas as Categorias</a>
+        </div>
+        <div class="category__child">
+          <div class="category-child__menuItems">
+            <div class="category-child__menuList">
+              <div class="list-department">
+                <ul class="list-department__containerAllCategory">
+                  <li class="">
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
                   </li>
                   <li>
                     <div class="list-item">
-                        <a href="#">Departamento</a>
-                        <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
                     </div>
-                </li>
-                <li>
+                  </li>
+                  <li>
                     <div class="list-item">
-                        <a href="#">Departamento</a>
-                        <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
                     </div>
-                </li>
-                <li>
+                  </li>
+                  <li>
                     <div class="list-item">
-                        <a href="#">Departamento</a>
-                        <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
                     </div>
-                </li>
-                <li>
+                  </li>
+                  <li>
                     <div class="list-item">
-                        <a href="#">Departamento</a>
-                        <a href="#"><img src="./assets/header/arrow.svg" alt=""></a>
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
                     </div>
-                </li>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-item">
+                      <a href="#" class="list-item__link--disabled">
+                        <p>Departamento</p>
+                        <img src="./assets/header/arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </li>
                 </ul>
-                
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="category-child__banner">
-              <div class="banner__image">
-                <img src="/assets/products/productDescription.png" />
-              </div>
-              <div class="banner__description">
-                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
-                <button>Ver Todos</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="category__department category__department--with-children">
-          <a href="#"> Departamento </a>
-          <div class="category__child">
-            <div class="category-child__menuItems">
-              <h4>Departamento</h4>
-              <div class="category-child__menuList">
-                <div class="list-department">
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="category-child__banner">
-              <div class="banner__image">
-                <img src="/assets/products/productDescription.png" />
-              </div>
-              <div class="banner__description">
-                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
-                <button>Ver Todos</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="category__department category__department--with-children">
-          <a href="#"> Departamento </a>
-          <div class="category__child">
-            <div class="category-child__menuItems">
-              <h4>Departamento</h4>
-              <div class="category-child__menuList">
-                <div class="list-department">
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="category-child__banner">
-              <div class="banner__image">
-                <img src="/assets/products/productDescription.png" />
-              </div>
-              <div class="banner__description">
-                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
-                <button>Ver Todos</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="category__department category__department--with-children">
-          <a href="#"> Departamento </a>
-          <div class="category__child">
-            <div class="category-child__menuItems">
-              <h4>Departamento</h4>
-              <div class="category-child__menuList">
-                <div class="list-department">
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="category-child__banner">
-              <div class="banner__image">
-                <img src="/assets/products/productDescription.png" />
-              </div>
-              <div class="banner__description">
-                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
-                <button>Ver Todos</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="category__department category__department--with-children">
-          <a href="#"> Departamento </a>
-          <div class="category__child">
-            <div class="category-child__menuItems">
-              <h4>Departamento</h4>
-              <div class="category-child__menuList">
-                <div class="list-department">
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="category-child__banner">
-              <div class="banner__image">
-                <img src="/assets/products/productDescription.png" />
-              </div>
-              <div class="banner__description">
-                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
-                <button>Ver Todos</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="category__department category__department--with-children">
-          <a href="#"> Departamento </a>
-          <div class="category__child">
-            <div class="category-child__menuItems">
-              <h4>Departamento</h4>
-              <div class="category-child__menuList">
-                <div class="list-department">
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="category-child__banner">
-              <div class="banner__image">
-                <img src="/assets/products/productDescription.png" />
-              </div>
-              <div class="banner__description">
-                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
-                <button>Ver Todos</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="category__department category__department--with-children">
-          <a href="#"> Departamento </a>
-          <div class="category__child">
-            <div class="category-child__menuItems">
-              <h4>Departamento</h4>
-              <div class="category-child__menuList">
-                <div class="list-department">
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="category-child__banner">
-              <div class="banner__image">
-                <img src="/assets/products/productDescription.png" />
-              </div>
-              <div class="banner__description">
-                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
-                <button>Ver Todos</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="category__department category__department--with-children">
-          <a href="#"> Departamento </a>
-          <div class="category__child">
-            <div class="category-child__menuItems">
-              <h4>Departamento</h4>
-              <div class="category-child__menuList">
-                <div class="list-department">
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="category-child__banner">
-              <div class="banner__image">
-                <img src="/assets/products/productDescription.png" />
-              </div>
-              <div class="banner__description">
-                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
-                <button>Ver Todos</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="category__department category__department--with-children">
-          <a href="#"> Departamento </a>
-          <div class="category__child">
-            <div class="category-child__menuItems">
-              <h4>Departamento</h4>
-              <div class="category-child__menuList">
-                <div class="list-department">
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                  <ul class="list-department__container">
-                    <li class="li"><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                    <li><a href="#">Categoria</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="category-child__banner">
-              <div class="banner__image">
-                <img src="/assets/products/productDescription.png" />
-              </div>
-              <div class="banner__description">
-                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
-                <button>Ver Todos</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="main-banner">
-        <img
-          class="main-banner__img"
-          src="./assets/header/banner1.png"
-          alt=""
-        />
 
-        <div class="main-banner__text">
-          <p class="text__title"><span>SUPER</span>SALE</p>
-          <p class="text__big">itens selecionados com até</p>
-          <p class="title__small">50%OFF</p>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="category-child__banner">
+            <div class="banner__image">
+              <img src="/assets/products/productDescription.png" />
+            </div>
+            <div class="banner__description">
+              <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+              <button>Ver Todos</button>
+            </div>
+          </div>
         </div>
       </div>
-      <section>
-        <div class="product">
-          <div class="product__title">
-            <h3>Lançamentos</h3>
-            <p><a href="#">Ver mais</a></p>
+      <div class="category__department category__department--with-children">
+        <a href="#"> Departamento </a>
+        <div class="category__child">
+          <div class="category-child__menuItems">
+            <h4>Departamento</h4>
+            <div class="category-child__menuList">
+              <div class="list-department">
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="product__list">
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
+          <div class="category-child__banner">
+            <div class="banner__image">
+              <img src="/assets/products/productDescription.png" />
             </div>
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
-            </div>
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
-            </div>
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
-            </div>
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
+            <div class="banner__description">
+              <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+              <button>Ver Todos</button>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="category__department category__department--with-children">
+        <a href="#"> Departamento </a>
+        <div class="category__child">
+          <div class="category-child__menuItems">
+            <h4>Departamento</h4>
+            <div class="category-child__menuList">
+              <div class="list-department">
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="category-child__banner">
+            <div class="banner__image">
+              <img src="/assets/products/productDescription.png" />
+            </div>
+            <div class="banner__description">
+              <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+              <button>Ver Todos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category__department category__department--with-children">
+        <a href="#"> Departamento </a>
+        <div class="category__child">
+          <div class="category-child__menuItems">
+            <h4>Departamento</h4>
+            <div class="category-child__menuList">
+              <div class="list-department">
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="category-child__banner">
+            <div class="banner__image">
+              <img src="/assets/products/productDescription.png" />
+            </div>
+            <div class="banner__description">
+              <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+              <button>Ver Todos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category__department category__department--with-children">
+        <a href="#"> Departamento </a>
+        <div class="category__child">
+          <div class="category-child__menuItems">
+            <h4>Departamento</h4>
+            <div class="category-child__menuList">
+              <div class="list-department">
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="category-child__banner">
+            <div class="banner__image">
+              <img src="/assets/products/productDescription.png" />
+            </div>
+            <div class="banner__description">
+              <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+              <button>Ver Todos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category__department category__department--with-children">
+        <a href="#"> Departamento </a>
+        <div class="category__child">
+          <div class="category-child__menuItems">
+            <h4>Departamento</h4>
+            <div class="category-child__menuList">
+              <div class="list-department">
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="category-child__banner">
+            <div class="banner__image">
+              <img src="/assets/products/productDescription.png" />
+            </div>
+            <div class="banner__description">
+              <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+              <button>Ver Todos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category__department category__department--with-children">
+        <a href="#"> Departamento </a>
+        <div class="category__child">
+          <div class="category-child__menuItems">
+            <h4>Departamento</h4>
+            <div class="category-child__menuList">
+              <div class="list-department">
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="category-child__banner">
+            <div class="banner__image">
+              <img src="/assets/products/productDescription.png" />
+            </div>
+            <div class="banner__description">
+              <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+              <button>Ver Todos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category__department category__department--with-children">
+        <a href="#"> Departamento </a>
+        <div class="category__child">
+          <div class="category-child__menuItems">
+            <h4>Departamento</h4>
+            <div class="category-child__menuList">
+              <div class="list-department">
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="category-child__banner">
+            <div class="banner__image">
+              <img src="/assets/products/productDescription.png" />
+            </div>
+            <div class="banner__description">
+              <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+              <button>Ver Todos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category__department category__department--with-children">
+        <a href="#"> Departamento </a>
+        <div class="category__child">
+          <div class="category-child__menuItems">
+            <h4>Departamento</h4>
+            <div class="category-child__menuList">
+              <div class="list-department">
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+                <ul class="list-department__container">
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                  <li><a href="#">Categoria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="category-child__banner">
+            <div class="banner__image">
+              <img src="/assets/products/productDescription.png" />
+            </div>
+            <div class="banner__description">
+              <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+              <button>Ver Todos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="main-banner">
+      <img class="main-banner__img" src="./assets/header/banner1.png" alt="" />
 
-      <section class="content-wrapper">
-        <div class="banner">
-          <div class="banner__img">
-            <img src="./assets/products/productMug.png" alt="" />
-          </div>
-          <div class="banner__text">
-            <h2 class="banner__title">lorem ipsum</h2>
-            <p>
-              Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
-              finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
-              efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
-              lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
-              fringilla porttitor tortor eget lacinia. Donec sollicitudin
-              euismod orci, auctor fringilla magna consequat interdum. Fusce
-              sagittis elit a libero commodo egestas efficitur id augue.
-            </p>
-            <p>
-              Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
-              finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
-              efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
-              lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
-              fringilla porttitor tortor eget lacinia. Donec sollicitudin
-              euismod orci, auctor fringilla magna consequat interdum. Fusce
-              sagittis elit a libero commodo egestas efficitur id augue.
-            </p>
-          </div>
+      <div class="main-banner__text">
+        <p class="text__title"><span>SUPER</span>SALE</p>
+        <p class="text__big">itens selecionados com até</p>
+        <p class="title__small">50%OFF</p>
+      </div>
+    </div>
+    <section>
+      <div class="product">
+        <div class="product__title">
+          <h3>Lançamentos</h3>
+          <p><a href="#">Ver mais</a></p>
         </div>
-      </section>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product-card">
+                <span class="lint__container__spanNew">novo</span>
+                <div>
+                  <img src="./assets/products/product.png" alt="" />
+                </div>
+                <div class="container__text">
+                  <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                  <div class="text__information">
+                    <div class="information__container">
+                      <div class="container__price">
+                        <span>R$ 100,00</span>
+                        <p>R$79,90</p>
+                      </div>
+                      <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                        off</a>
+                    </div>
+                    <p>Ou em até <span>10x de R$ 7,90</span></p>
+                  </div>
+                </div>
+                <button class="product__btn">Comprar</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-card">
+                <span class="lint__container__spanNew">novo</span>
+                <div>
+                  <img src="./assets/products/product.png" alt="" />
+                </div>
+                <div class="container__text">
+                  <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                  <div class="text__information">
+                    <div class="information__container">
+                      <div class="container__price">
+                        <span>R$ 100,00</span>
+                        <p>R$79,90</p>
+                      </div>
+                      <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                        off</a>
+                    </div>
+                    <p>Ou em até <span>10x de R$ 7,90</span></p>
+                  </div>
+                </div>
+                <button class="product__btn">Comprar</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-card">
+                <span class="lint__container__spanNew">novo</span>
+                <div>
+                  <img src="./assets/products/product.png" alt="" />
+                </div>
+                <div class="container__text">
+                  <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                  <div class="text__information">
+                    <div class="information__container">
+                      <div class="container__price">
+                        <span>R$ 100,00</span>
+                        <p>R$79,90</p>
+                      </div>
+                      <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                        off</a>
+                    </div>
+                    <p>Ou em até <span>10x de R$ 7,90</span></p>
+                  </div>
+                </div>
+                <button class="product__btn">Comprar</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-card">
+                <span class="lint__container__spanNew">novo</span>
+                <div>
+                  <img src="./assets/products/product.png" alt="" />
+                </div>
+                <div class="container__text">
+                  <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                  <div class="text__information">
+                    <div class="information__container">
+                      <div class="container__price">
+                        <span>R$ 100,00</span>
+                        <p>R$79,90</p>
+                      </div>
+                      <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                        off</a>
+                    </div>
+                    <p>Ou em até <span>10x de R$ 7,90</span></p>
+                  </div>
+                </div>
+                <button class="product__btn">Comprar</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-card">
+                <span class="lint__container__spanNew">novo</span>
+                <div>
+                  <img src="./assets/products/product.png" alt="" />
+                </div>
+                <div class="container__text">
+                  <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                  <div class="text__information">
+                    <div class="information__container">
+                      <div class="container__price">
+                        <span>R$ 100,00</span>
+                        <p>R$79,90</p>
+                      </div>
+                      <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                        off</a>
+                    </div>
+                    <p>Ou em até <span>10x de R$ 7,90</span></p>
+                  </div>
+                </div>
+                <button class="product__btn">Comprar</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-card">
+                <span class="lint__container__spanNew">novo</span>
+                <div>
+                  <img src="./assets/products/product.png" alt="" />
+                </div>
+                <div class="container__text">
+                  <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                  <div class="text__information">
+                    <div class="information__container">
+                      <div class="container__price">
+                        <span>R$ 100,00</span>
+                        <p>R$79,90</p>
+                      </div>
+                      <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                        off</a>
+                    </div>
+                    <p>Ou em até <span>10x de R$ 7,90</span></p>
+                  </div>
+                </div>
+                <button class="product__btn">Comprar</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-card">
+                <span class="lint__container__spanNew">novo</span>
+                <div>
+                  <img src="./assets/products/product.png" alt="" />
+                </div>
+                <div class="container__text">
+                  <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+                  <div class="text__information">
+                    <div class="information__container">
+                      <div class="container__price">
+                        <span>R$ 100,00</span>
+                        <p>R$79,90</p>
+                      </div>
+                      <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                        off</a>
+                    </div>
+                    <p>Ou em até <span>10x de R$ 7,90</span></p>
+                  </div>
+                </div>
+                <button class="product__btn">Comprar</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"><i class="fa-solid fa-arrow-right"></i></div>
+          <div class="swiper-button-prev"> <i class="fa-solid fa-arrow-left"></i></div>
+        </div>
+      </div>
 
-      <section class="content-wrapper--gray">
-        <div class="banner__specification">
-          <div class="specification">
-            <h1 class="specification__title">lorem ipsum</h1>
-            <div class="specification__container">
-              <div class="container__img">
-                <img src="./assets/products/map-pin.svg" alt="" />
-              </div>
-              <p>
-                Aenean massa. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem.
-              </p>
-            </div>
-            <div class="specification__container">
-              <div class="container__img">
-                <img src="./assets/products/map-pin.svg" alt="" />
-              </div>
-              <p>
-                Aenean massa. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem.
-              </p>
-            </div>
-            <div class="specification__container">
-              <div class="container__img">
-                <img src="./assets/products/map-pin.svg" alt="" />
-              </div>
-              <p>
-                Aenean massa. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem.
-              </p>
-            </div>
-          </div>
-          <div>
-            <img src="./assets/products/productDescription.png" alt="" />
-          </div>
-        </div>
-      </section>
+    </section>
 
-      <section class="content-wrapper">
-        <div class="banner">
-          <div class="banner__img">
-            <img src="./assets/products/productMug.png" alt="" />
-          </div>
-          <div class="banner__text">
-            <h2 class="banner__title">lorem ipsum</h2>
-            <p>
-              Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
-              finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
-              efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
-              lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
-              fringilla porttitor tortor eget lacinia. Donec sollicitudin
-              euismod orci, auctor fringilla magna consequat interdum. Fusce
-              sagittis elit a libero commodo egestas efficitur id augue.
-            </p>
-            <p>
-              Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
-              finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
-              efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
-              lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
-              fringilla porttitor tortor eget lacinia. Donec sollicitudin
-              euismod orci, auctor fringilla magna consequat interdum. Fusce
-              sagittis elit a libero commodo egestas efficitur id augue.
-            </p>
-          </div>
+    <section class="content-wrapper">
+      <div class="banner">
+        <div class="banner__img">
+          <img src="./assets/products/productMug.png" alt="" />
         </div>
-      </section>
-
-      <section>
-        <div class="product">
-          <div class="product__title">
-            <h3>Lançamentos</h3>
-            <p><a href="#">Ver mais</a></p>
-          </div>
-          <div class="product__list">
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
-            </div>
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
-            </div>
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
-            </div>
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
-            </div>
-            <div class="list__container">
-              <div>
-                <img src="./assets/products/product.png" alt="" />
-              </div>
-              <div class="container__text">
-                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
-                <div class="text__information">
-                  <div class="information__container">
-                    <div class="container__price">
-                      <span>R$ 100,00</span>
-                      <p>R$79,90</p>
-                    </div>
-                    <a
-                      class="information__link"
-                      href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51"
-                      >10% off</a
-                    >
-                  </div>
-                  <p>Ou em até <span>10x de R$ 7,90</span></p>
-                </div>
-              </div>
-              <button class="product__btn">Comprar</button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="second-banner">
-        <div class="second-banner__text">
-          <p class="">
-            Entre em contato conosco e verifique a disponibilidade para sua
-            região!
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <div class="signup">
-          <h4 class="signup__title">
-            Cadastra-se na nossa <span>newsletter</span>
-          </h4>
-          <div class="signup__form">
-            <input type="text" placeholder="Digite seu nome" />
-            <input type="text" placeholder="Digite seu e-mail" />
-            <div class="form__checkbox">
-              <input type="checkbox" name="" />
-              <label for=""
-                >Estou de acordo com a
-                <a href="" class="signup__link"
-                  >Política de Privacidade</a
-                ></label
-              >
-            </div>
-            <button class="signup__btn">Cadastrar</button>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="">
-      <div class="footer">
-        <div class="footer__container">
-          <div class="container__social">
-            <img src="./assets/header/logo-avanti.svg" alt="" />
-            <div class="social__media">
-              <img
-                src="./assets/footer/social-media/instagram.svg"
-                width="19.01"
-                height="19.01"
-                alt=""
-              />
-              <img
-                src="./assets/footer/social-media/facebook.svg"
-                width="10.39"
-                height="22.35"
-                alt=""
-              />
-              <img
-                src="./assets/footer/social-media/youtube.svg"
-                width="22.83"
-                height="17.84"
-                alt=""
-              />
-              <img
-                src="./assets/footer/social-media/tiktok.svg"
-                width="18.2"
-                height="21"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="container__service">
-            <h4>Institucional</h4>
-            <div>
-              <h5>Nossas Lojas</h5>
-              <h5>Privacidade e Segurança</h5>
-              <h5>Termos e Condições</h5>
-            </div>
-          </div>
-          <div class="container__service">
-            <h4>Central de ajuda</h4>
-            <div>
-              <h5>Fale Conosco</h5>
-              <h5>Frete e Entrega</h5>
-              <h5>Trocas e Devoluções</h5>
-              <h5>Formas de Pagamento</h5>
-              <h5>FAQ</h5>
-            </div>
-          </div>
-          <div class="container__service">
-            <h4>Atendimento</h4>
-            <div>
-              <h5>Telefone: (00) 1234-5678</h5>
-              <h5>E-mail: exemplo@exemplo.com.br</h5>
-              <h5>
-                Horário de atendimento: Segunda a Sábado: 07h00 às 23h00
-                Domingos e Feriados: 07h00 às 21h00
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="footer__payment">
-          <img src="./assets/footer/payment/amex.svg" alt="" />
-          <img src="./assets/footer/payment/União 32.svg" alt="" />
-          <img src="./assets/footer/payment/visa.svg" alt="" />
-          <img src="./assets/footer/payment/hipercard.svg" alt="" />
-          <img src="./assets/footer/payment/elo.svg" alt="" />
-          <img src="./assets/footer/payment/b.svg" alt="" />
-          <img src="./assets/footer/payment/paypal-seeklogo.com.svg" alt="" />
-          <img src="./assets/footer/payment/pix.svg" alt="" />
-          <img src="./assets/footer/payment/boleto.svg" alt="" />
-        </div>
-        <div class="footer__message">
+        <div class="banner__text">
+          <h2 class="banner__title">lorem ipsum</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel illum dolore eu feugiat nulla
-            facilisis at vero eros et accumsan et iusto odio dignissim qui
-            blandit praesent luptatum zzril delenit augue duis dolore te feugait
-            nulla facilisi.
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin
+            euismod orci, auctor fringilla magna consequat interdum. Fusce
+            sagittis elit a libero commodo egestas efficitur id augue.
           </p>
-          <div class="footer__sponsors">
-            <div class="sponsors__container">
-              <img src="./assets/footer/let.svg" alt="" />
-              <img src="./assets/footer/vtex-pci-200.svg" alt="" />
+          <p>
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin
+            euismod orci, auctor fringilla magna consequat interdum. Fusce
+            sagittis elit a libero commodo egestas efficitur id augue.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-wrapper--gray">
+      <div class="banner__specification">
+        <div class="specification">
+          <h1 class="specification__title">lorem ipsum</h1>
+          <div class="specification__container">
+            <div class="container__img">
+              <img src="./assets/products/map-pin.svg" alt="" />
             </div>
-            <div class="sponsors__container">
-              <img src="./assets/footer/VTEX_Logo (1) 1.svg" alt="" />
-              <img
-                src="./assets/header/logo-avanti.svg"
-                width="57.38"
-                height="10.18"
-              />
+            <p>
+              Aenean massa. Cum sociis natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem.
+            </p>
+          </div>
+          <div class="specification__container">
+            <div class="container__img">
+              <img src="./assets/products/map-pin.svg" alt="" />
+            </div>
+            <p>
+              Aenean massa. Cum sociis natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem.
+            </p>
+          </div>
+          <div class="specification__container">
+            <div class="container__img">
+              <img src="./assets/products/map-pin.svg" alt="" />
+            </div>
+            <p>
+              Aenean massa. Cum sociis natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/products/productDescription.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="content-wrapper">
+      <div class="banner">
+        <div class="banner__img">
+          <img src="./assets/products/productMug.png" alt="" />
+        </div>
+        <div class="banner__text">
+          <h2 class="banner__title">lorem ipsum</h2>
+          <p>
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin
+            euismod orci, auctor fringilla magna consequat interdum. Fusce
+            sagittis elit a libero commodo egestas efficitur id augue.
+          </p>
+          <p>
+            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae
+            finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras
+            efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed
+            lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas
+            fringilla porttitor tortor eget lacinia. Donec sollicitudin
+            euismod orci, auctor fringilla magna consequat interdum. Fusce
+            sagittis elit a libero commodo egestas efficitur id augue.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="product">
+        <div class="product__title">
+          <h3>Lançamentos</h3>
+          <p><a href="#">Ver mais</a></p>
+        </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+              <div class="product__list">
+                <div class="list__container">
+                  <span class="lint__container__spanNew">novo</span>
+                  <div>
+                    <img src="./assets/products/product.png" alt="" />
+                  </div>
+                  <div class="container__text">
+                    <h3>
+                      Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                    </h3>
+                    <div class="text__information">
+                      <div class="information__container">
+                        <div class="container__price">
+                          <span>R$ 100,00</span>
+                          <p>R$79,90</p>
+                        </div>
+                        <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                          off</a>
+                      </div>
+                      <p>Ou em até <span>10x de R$ 7,90</span></p>
+                    </div>
+                  </div>
+                  <button class="product__btn">Comprar</button>
+                </div>
+                <div class="list__container">
+                  <span class="lint__container__spanNew">novo</span>
+                  <div>
+                    <img src="./assets/products/product.png" alt="" />
+                  </div>
+                  <div class="container__text">
+                    <h3>
+                      Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                    </h3>
+                    <div class="text__information">
+                      <div class="information__container">
+                        <div class="container__price">
+                          <span>R$ 100,00</span>
+                          <p>R$79,90</p>
+                        </div>
+                        <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                          off</a>
+                      </div>
+                      <p>Ou em até <span>10x de R$ 7,90</span></p>
+                    </div>
+                  </div>
+                  <button class="product__btn">Comprar</button>
+                </div>
+                <div class="list__container">
+                  <span class="lint__container__spanNew">novo</span>
+                  <div>
+                    <img src="./assets/products/product.png" alt="" />
+                  </div>
+                  <div class="container__text">
+                    <h3>
+                      Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                    </h3>
+                    <div class="text__information">
+                      <div class="information__container">
+                        <div class="container__price">
+                          <span>R$ 100,00</span>
+                          <p>R$79,90</p>
+                        </div>
+                        <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                          off</a>
+                      </div>
+                      <p>Ou em até <span>10x de R$ 7,90</span></p>
+                    </div>
+                  </div>
+                  <button class="product__btn">Comprar</button>
+                </div>
+                <div class="list__container">
+                  <span class="lint__container__spanNew">novo</span>
+                  <div>
+                    <img src="./assets/products/product.png" alt="" />
+                  </div>
+                  <div class="container__text">
+                    <h3>
+                      Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                    </h3>
+                    <div class="text__information">
+                      <div class="information__container">
+                        <div class="container__price">
+                          <span>R$ 100,00</span>
+                          <p>R$79,90</p>
+                        </div>
+                        <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                          off</a>
+                      </div>
+                      <p>Ou em até <span>10x de R$ 7,90</span></p>
+                    </div>
+                  </div>
+                  <button class="product__btn">Comprar</button>
+                </div>
+                <div class="list__container">
+                  <span class="lint__container__spanNew">novo</span>
+                  <div>
+                    <img src="./assets/products/product.png" alt="" />
+                  </div>
+                  <div class="container__text">
+                    <h3>
+                      Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                    </h3>
+                    <div class="text__information">
+                      <div class="information__container">
+                        <div class="container__price">
+                          <span>R$ 100,00</span>
+                          <p>R$79,90</p>
+                        </div>
+                        <a class="information__link" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10%
+                          off</a>
+                      </div>
+                      <p>Ou em até <span>10x de R$ 7,90</span></p>
+                    </div>
+                  </div>
+                  <button class="product__btn">Comprar</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
-    </footer>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section class="second-banner">
+      <div class="second-banner__text">
+        <p class="">
+          Entre em contato conosco e verifique a disponibilidade para sua
+          região!
+        </p>
+      </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <section>
+      <div class="signup">
+        <h4 class="signup__title">
+          Cadastra-se na nossa <span>newsletter</span>
+        </h4>
+        <div class="signup__form">
+          <input type="text" placeholder="Digite seu nome" />
+          <input type="text" placeholder="Digite seu e-mail" />
+          <div class="form__checkbox">
+            <input type="checkbox" name="" />
+            <label for="">Estou de acordo com a
+              <a href="" class="signup__link">Política de Privacidade</a></label>
+          </div>
+          <button class="signup__btn">Cadastrar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="">
+    <div class="footer">
+      <div class="footer__container">
+        <div class="container__social">
+          <img src="./assets/header/logo-avanti.svg" alt="" />
+          <div class="social__media">
+            <img src="./assets/footer/social-media/instagram.svg" width="19.01" height="19.01" alt="" />
+            <img src="./assets/footer/social-media/facebook.svg" width="10.39" height="22.35" alt="" />
+            <img src="./assets/footer/social-media/youtube.svg" width="22.83" height="17.84" alt="" />
+            <img src="./assets/footer/social-media/tiktok.svg" width="18.2" height="21" alt="" />
+          </div>
+        </div>
+        <div class="container__service">
+          <h4>Institucional</h4>
+          <div>
+            <h5>Nossas Lojas</h5>
+            <h5>Privacidade e Segurança</h5>
+            <h5>Termos e Condições</h5>
+          </div>
+        </div>
+        <div class="container__service">
+          <h4>Central de ajuda</h4>
+          <div>
+            <h5>Fale Conosco</h5>
+            <h5>Frete e Entrega</h5>
+            <h5>Trocas e Devoluções</h5>
+            <h5>Formas de Pagamento</h5>
+            <h5>FAQ</h5>
+          </div>
+        </div>
+        <div class="container__service">
+          <h4>Atendimento</h4>
+          <div>
+            <h5>Telefone: (00) 1234-5678</h5>
+            <h5>E-mail: exemplo@exemplo.com.br</h5>
+            <h5>
+              Horário de atendimento: Segunda a Sábado: 07h00 às 23h00
+              Domingos e Feriados: 07h00 às 21h00
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="footer__payment">
+        <img src="./assets/footer/payment/amex.svg" alt="" />
+        <img src="./assets/footer/payment/União 32.svg" alt="" />
+        <img src="./assets/footer/payment/visa.svg" alt="" />
+        <img src="./assets/footer/payment/hipercard.svg" alt="" />
+        <img src="./assets/footer/payment/elo.svg" alt="" />
+        <img src="./assets/footer/payment/b.svg" alt="" />
+        <img src="./assets/footer/payment/paypal-seeklogo.com.svg" alt="" />
+        <img src="./assets/footer/payment/pix.svg" alt="" />
+        <img src="./assets/footer/payment/boleto.svg" alt="" />
+      </div>
+      <div class="footer__message">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+          consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
+          velit esse molestie consequat, vel illum dolore eu feugiat nulla
+          facilisis at vero eros et accumsan et iusto odio dignissim qui
+          blandit praesent luptatum zzril delenit augue duis dolore te feugait
+          nulla facilisi.
+        </p>
+        <div class="footer__sponsors">
+          <div class="sponsors__container">
+            <img src="./assets/footer/let.svg" alt="" />
+            <img src="./assets/footer/vtex-pci-200.svg" alt="" />
+          </div>
+          <div class="sponsors__container">
+            <img src="./assets/footer/VTEX_Logo (1) 1.svg" alt="" />
+            <img src="./assets/header/logo-avanti.svg" width="57.38" height="10.18" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="./script.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+  <script src="./scripts/productSlide.js"> </script>
+</body>
+
 </html>
