@@ -1,7 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 17,  
     centeredSlides: false,
-    slidesPerView: 5,
+    slidesPerView: 6,
     loop: true,
     autoplay: {
       delay: 2500,
@@ -15,5 +15,9 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
+    
+  }); 
+
+  
+
   

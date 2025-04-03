@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #E7E7EA;
+  background-color: #e7e7ea;
 }
 
 .main-banner__img {
@@ -222,4 +222,28 @@ div .text__titles {
   line-height: 1.4;
   text-align: center;
   color: #fff;
+}
+
+@media (max-width: 390px) {
+  .main-banner {
+    width: 100vw;
+  }
+
+  .main-banner__img {
+    height: 306px;
+
+    padding-right: 125px;
+  }
+  .main-banner__text {
+    width: 100%;
+    max-width: 133px;
+  }
+  .text__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .text__title span {
+    font-size: 100px;
+    line-height: 40px;
+  }
 }
