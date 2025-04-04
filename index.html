@@ -20,7 +20,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/lucide@0.17.0/dist/lucide.min.css"
@@ -40,14 +40,23 @@
   <body>
     <header>
       <!-- Swiper JS -->
-      <div class="swipeer mySwiper">
-        <div class="slide__text">
-          <div class="text__info">
-            <p class="">
-              Ganhe <span class="info__value"> R$10,00 </span> de desconto no
-              seu primeiro pedido. Utilize o cupom
-              <span class="info__italic">DESCONTO10</span>
-            </p>
+      <div class="slides">
+        <div class="swiper tipbar">
+          <div class="swiper-wrapper slide__text">
+            <div class="swiper-slide text__info">
+              <p class="">
+                Ganhe <span class="info__value"> R$10,00 </span> de desconto no
+                seu primeiro pedido. Utilize o cupom
+                <span class="info__italic">DESCONTO10</span>
+              </p>
+            </div>
+            <div class="swiper-slide text__info">
+              <p class="">
+                Ganhe <span class="info__value"> R$10,11 </span> de desconto no
+                seu primeiro pedido. Utilize o cupom
+                <span class="info__italic">DESCONTO10</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -75,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="menu--disabled">
+      <!--  <div class="menu--disabled">
         <div class="navigation-mobile">
           <div class="mobile-menu--disabled">
             <img src="./assets/header/menu-icon-mobile.svg" alt="" />
@@ -95,7 +104,7 @@
           <input type="text" placeholder="Digite o que você procura" />
           <img src="./assets/header/search.svg" alt="" />
         </div>
-      </div>
+      </div>-->
       <nav class="category">
         <div
           class="category__department category__department--main category__department--with-children"
@@ -699,13 +708,13 @@
           <p class="title__small">50%OFF</p>
         </div>
       </div>
-      <section>
+      <article>
         <div class="product">
           <div class="product__title">
             <h3>Lançamentos</h3>
             <p><a href="#">Ver mais</a></p>
           </div>
-          <div class="swiper mySwiper">
+          <div class="swiper product-shelf">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="product-card">
@@ -732,7 +741,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -760,7 +771,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -788,7 +801,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -816,7 +831,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -844,7 +861,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -872,7 +891,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -900,7 +921,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -913,7 +936,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </article>
 
       <section class="content-wrapper">
         <div class="banner">
@@ -979,8 +1002,8 @@
               </p>
             </div>
           </div>
-          <div>
-            <img src="./assets/products/productDescription.png" alt="" />
+          <div class="specification__img-main">
+            <img src="./assets/products/productDescription.png" class="" />
           </div>
         </div>
       </section>
@@ -1015,12 +1038,12 @@
       </section>
 
       <article>
-        <div class="product">
+        <div class="product mobile--disabled">
           <div class="product__title">
             <h3>Lançamentos</h3>
             <p><a href="#">Ver mais</a></p>
           </div>
-          <div class="swiper mySwiper">
+          <div class="swiper product-shelf">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="product-card">
@@ -1047,7 +1070,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -1075,7 +1100,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -1103,7 +1130,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -1131,7 +1160,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -1159,7 +1190,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -1187,7 +1220,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -1215,7 +1250,9 @@
                       <p>Ou em até <span>10x de R$ 7,90</span></p>
                     </div>
                   </div>
-                  <button class="product__btn">Comprar</button>
+                  <div class="card__btn">
+                    <button class="product__btn">Comprar</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1230,6 +1267,16 @@
         </div>
       </article>
       <section class="second-banner">
+        <img
+          srcset="
+            /assets/footer/quarto-banner.png 480w,
+            /assets/footer/banner2.png       800w
+          "
+          sizes="(max-width: 600px) 480px, 800px"
+          src="./assets/footer/banner2.png"
+          alt=""
+        />
+
         <div class="second-banner__text">
           <p class="">
             Entre em contato conosco e verifique a disponibilidade para sua
@@ -1364,7 +1411,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./script.js"></script>
     <script src="./scripts/productSlide.js"></script>
   </body>
 </html>
