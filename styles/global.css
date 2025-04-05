@@ -19,6 +19,7 @@ input[type="text"] {
   height: 48px;
   border-radius: 8px;
   padding-left: 24px;
+  color: #303030;
 }
 
 a {
@@ -33,7 +34,8 @@ p {
   font-size: 12px;
 }
 
-section {
+section,
+article {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,6 +45,9 @@ footer {
   height: 597px;
   width: 100vw;
   padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {

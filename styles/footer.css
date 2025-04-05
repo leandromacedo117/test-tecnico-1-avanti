@@ -3,6 +3,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.footer-info {
+  width: 100%;
+  max-width: 1160px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 386px;
 }
 
 .footer__container {
@@ -10,7 +22,6 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   max-width: 1160px;
-  height: 170px;
   align-items: flex-start;
   justify-content: center;
 }
@@ -55,7 +66,7 @@
   color: #000000;
   line-height: 1;
 }
-.container__service div h5 {
+.service__text h5 {
   font-weight: 400;
   font-size: 14px;
   line-height: 28px;
@@ -68,12 +79,18 @@
   justify-content: center;
   padding: 64px 0;
   width: 100%;
-  max-width: 545.29px;
-  height: 24px;
-  gap: 34.22px;
 }
 
-.footer__message p {
+.footer__payment div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34.22px;
+
+  height: 24px;
+}
+
+.footer__message .text-desktop {
   text-align: center;
   padding: 40px 0;
   width: 100%;
@@ -81,6 +98,10 @@
   height: 59px;
   font-size: 12px;
   color: #303030;
+}
+
+.text-mobile {
+  display: none;
 }
 
 .footer__sponsors {
@@ -95,4 +116,90 @@
   align-items: center;
   justify-content: center;
   gap: 24px;
+}
+
+.footer-btn-mobile {
+  display: none;
+}
+
+@media (max-width: 390px) {
+  footer {
+    height: 700px;
+    width: 100%;
+    max-width: 390px;
+    padding-top: 40px;
+  }
+
+  .footer__container {
+    max-width: 390px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: none;
+    height: 495.67px;
+  }
+
+  .container__social {
+    max-width: 197px;
+    height: 93px;
+    padding-bottom: 48px;
+    align-items: center;
+  }
+
+  .social__media {
+    padding-bottom: 48px;
+  }
+
+  .service__text {
+    display: none;
+  }
+
+  .container__service {
+    display: flex;
+    align-items: flex-start;
+
+    width: 100%;
+    max-width: 390px;
+  }
+
+  .service-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 358px;
+
+    padding: 16px;
+  }
+
+  .footer__payment {
+    max-width: 288.4px;
+    height: 64.67px;
+  }
+
+  .footer__payment-main {
+    flex-direction: column;
+  }
+
+  .footer__message {
+    padding: 40px 16px 0px 16px;
+    gap: 40px;
+    height: 131px;
+    max-width: 358px;
+  }
+  .footer__message .text-mobile__message {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 358px;
+    height: 59px;
+  }
+
+  .text-desktop {
+    display: none;
+  }
+
+  .footer-btn-mobile {
+    display: block;
+  }
 }

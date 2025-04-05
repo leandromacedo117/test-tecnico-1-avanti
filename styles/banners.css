@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #E7E7EA;
+  background-color: #e7e7ea;
 }
 
 .main-banner__img {
@@ -165,6 +165,11 @@ div .text__titles {
   gap: 50px;
 }
 
+.specification__img-main img {
+  max-width: 652px;
+  height: 728.19px;
+}
+
 .specification__title {
   font-size: 30px;
   line-height: 1.4;
@@ -181,13 +186,13 @@ div .text__titles {
 }
 
 .container__img {
-  width: 90px;
-  height: 90px;
   background-color: #005cff;
-  border-radius: 100%;
+  padding: 22px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .container__img img {
@@ -196,7 +201,10 @@ div .text__titles {
 }
 
 .specification__container p {
-  white-space: pre;
+  font-size: 18px;
+  color: #4f4f4f;
+  letter-spacing: calc(18px * 0.05);
+  font-weight: 400;
 }
 
 .second-banner {
@@ -204,6 +212,8 @@ div .text__titles {
   height: 660px;
   background-size: cover;
   background-image: url("../assets/footer/banner2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
 }
@@ -222,4 +232,125 @@ div .text__titles {
   line-height: 1.4;
   text-align: center;
   color: #fff;
+}
+
+@media (max-width: 390px) {
+  .banner {
+    max-width: 390px;
+    height: 732px;
+  }
+
+  .banner__img {
+    max-width: 390px;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner__img img {
+    max-width: 375px;
+    height: 570px;
+  }
+  .banner__text {
+    max-width: 343px;
+    height: 246px;
+  }
+
+  .banner__title {
+    font-size: 24px;
+    letter-spacing: calc(24px * 0.04);
+  }
+
+  .banner__text p {
+    letter-spacing: calc(14px * 0.05);
+    max-width: 343px;
+    height: 260px;
+  }
+
+  .content-wrapper--gray {
+    max-width: 390px;
+    height: 717px;
+  }
+
+  .banner__specification {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .specification {
+    gap: 21px;
+  }
+
+  .specification__title {
+    font-size: 20px;
+  }
+
+  .specification__container {
+    width: 350px;
+    height: 68px;
+    row-gap: 21px;
+  }
+
+  .container__img {
+    padding: 14.6px;
+  }
+
+  .container__img img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .specification__container p {
+    max-width: 276px;
+
+    font-size: 12px;
+  }
+
+  .specification__img-main img {
+    object-fit: contain;
+    width: 349px;
+    max-height: 349px;
+    padding: 21px 0;
+  }
+
+  .second-banner {
+    max-width: 390px;
+    height: 449px;
+    background-position: bottom center;
+    background-image: url("../assets/footer/quarto-banner.png");
+  }
+
+  .second-banner__text {
+    max-width: 390px;
+    height: 75px;
+  }
+
+  .second-banner__text p {
+    max-width: 368px;
+    height: 39px;
+    font-size: 16px;
+  }
+
+  /*.main-banner {
+    width: 100vw;
+  }
+
+  .main-banner__img {
+    height: 306px;
+
+    padding-right: 125px;
+  }
+  .main-banner__text {
+    width: 100%;
+    max-width: 133px;
+  }
+  .text__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .text__title span {
+    font-size: 100px;
+    line-height: 40px;
+  }*/
 }

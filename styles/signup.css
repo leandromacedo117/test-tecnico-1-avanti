@@ -13,6 +13,7 @@
 .signup__title {
   width: 301px;
   height: 27px;
+  text-align: center;
 }
 
 .signup__title h4 {
@@ -60,4 +61,43 @@ label .signup__link {
   height: 48px;
   padding: 10px 24px;
   gap: 10px;
+}
+
+@media (max-width: 390px) {
+  .signup {
+    max-width: 358px;
+    height: 330px;
+    gap: 16px;
+  }
+
+  .signup__title {
+    font-size: 16px;
+  }
+
+  .signup__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 358px;
+    height: 284px;
+    gap: 16px;
+    background-color: #fff;
+  }
+
+  .signup__form input[type="text"] {
+    font-size: 14px;
+    max-width: 326px;
+  }
+
+  .form__checkbox input {
+    font-size: 12px;
+  }
+
+  .form__checkbox label a {
+    font-size: 12px;
+  }
+
+  .signup__btn {
+    width: 100%;
+    max-width: 326px;
+  }
 }
