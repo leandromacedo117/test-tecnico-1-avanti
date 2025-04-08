@@ -696,15 +696,21 @@
     </header>
     <main>
       <div class="main-banner">
-        <img
-          class="main-banner__img"
-          src="./assets/header/banner1.png"
-          alt=""
-        />
+        <div class="main-banner-img">
+          <img
+            class="main-banner__img"
+            src="./assets/header/banner1.png"
+            alt=""
+          />
+        </div>
 
         <div class="main-banner__text">
-          <p class="text__title"><span>SUPER</span>SALE</p>
-          <p class="text__big">itens selecionados com até</p>
+          <div class="text__title">
+            <span>SUPER</span>
+            <p>SALE</p>
+          </div>
+          <p class="text__desktop">itens selecionados com até</p>
+          <div class="text__mobile"><p>selected items up to</p></div>
           <p class="title__small">50%OFF</p>
         </div>
       </div>
@@ -927,7 +933,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination icons-slide"></div>
             <div class="swiper-button-next">
               <i class="fa-solid fa-arrow-right"></i>
             </div>
@@ -1022,7 +1028,7 @@
         </div>
       </section>
 
-      <section class="content-wrapper">
+      <section class="content-wrapper banner-two">
         <div class="banner">
           <div class="banner__img">
             <img src="./assets/products/productMug.png" alt="" />
@@ -1196,7 +1202,7 @@
               <div class="swiper-slide">
                 <div class="product-card">
                   <span class="lint__container__spanNew">novo</span>
-                  <div>
+                  <div class="card__img">
                     <img src="./assets/products/product.png" alt="" />
                   </div>
                   <div class="container__text">

@@ -16,6 +16,7 @@ var shelf = new Swiper(".product-shelf", {
       prevEl: ".swiper-button-prev",
     }, breakpoints: {
       390:{
+        spaceBetween:10,
         slidesPerView: 2
       }, 1000: {
         slidesPerView:5

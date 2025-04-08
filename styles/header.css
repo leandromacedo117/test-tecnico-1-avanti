@@ -120,7 +120,7 @@ header {
   background-color: #005cff;
   position: absolute;
   top: -8px;
-  right: -15px;
+  right: -48%;
 }
 
 .shoppingcart__title p {
@@ -153,6 +153,9 @@ header {
 }
 
 @media (max-width: 390px) {
+  .category {
+    display: none;
+  }
   .tipbar {
     width: 100vw;
     height: 56px;
