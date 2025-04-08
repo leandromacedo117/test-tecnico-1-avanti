@@ -100,10 +100,6 @@
   color: #303030;
 }
 
-.text-mobile {
-  display: none;
-}
-
 .footer__sponsors {
   display: flex;
   align-items: center;
@@ -193,6 +189,10 @@
     line-height: 20px;
     max-width: 358px;
     height: 59px;
+  }
+
+  .footer__sponsors {
+    padding-top: 40px;
   }
 
   .text-desktop {
