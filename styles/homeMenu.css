@@ -231,4 +231,14 @@
 
 /*.list-item__link--disabled:hover .list-department__container {
   display: none;
+  
 }*/
+
+@media (max-width: 390px) {
+  .category {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
