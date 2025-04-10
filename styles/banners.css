@@ -126,7 +126,8 @@
 .description__img {
   display: flex;
   justify-content: center;
-  width: 652px;
+  width: 100%;
+  max-width: 652px;
   height: 747px;
   align-items: center;
   background-color: #c2c2c2;
@@ -142,8 +143,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  width: 487px;
+  width: 100%;
+  max-width: 487px;
   height: 536px;
 }
 
@@ -169,7 +170,8 @@ div .text__titles {
   align-items: center;
   justify-content: center;
   gap: 49px;
-  width: 1930px;
+  width: 100%;
+  max-width: 1930px;
   height: 819px;
   background-color: #dedede;
 }
@@ -177,7 +179,9 @@ div .text__titles {
 .specification {
   display: flex;
   flex-direction: column;
-  width: 476px;
+  width: 100%;
+  max-width: 476px;
+
   height: 567px;
   align-items: center;
   background-color: #dedede;
@@ -275,7 +279,8 @@ div .text__titles {
   }
 
   .main-banner__img {
-    width: 411px;
+    width: 100%;
+    max-width: 411px;
     height: 100%;
   }
 

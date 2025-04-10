@@ -3,10 +3,10 @@ var shelf = new Swiper(".product-shelf", {
     centeredSlides: false,
     slidesPerView: 5,
     loop: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 2500,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

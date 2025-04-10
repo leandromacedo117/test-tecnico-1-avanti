@@ -6,8 +6,11 @@ header {
   gap: 22px;
 }
 
-.tipbar {
+.slides{
   background-color: #005cff;
+}
+
+.tipbar {
   color: #fff;
   display: flex;
   align-items: center;
@@ -52,7 +55,7 @@ header {
   display: none;
 }
 
-.menu__banner {
+.menu__bar {
   padding-right: 65.42px;
 }
 
@@ -62,10 +65,17 @@ header {
   justify-content: center;
 }
 
-.menu__search img,
-.menu__search-mobile img {
+.search__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search__btn,
+.search__btn {
   position: relative;
   left: -27px;
+  background-color: transparent;
 }
 
 .menu__search input {
@@ -94,11 +104,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 28px;
 }
 
 .profile__user p {
-  width: 87px;
-  height: 14px;
+  width: 100px;
+  height: 28px;
   line-height: 14px;
   font-weight: 600;
   font-size: 14px;
@@ -161,12 +172,17 @@ header {
   line-height: 22px;
 }
 
+
+
 @media (max-width: 390px) {
+
+
   .category {
     display: none;
   }
   .tipbar {
-    width: 100vw;
+    width: 100%;
+    max-width: 346px;
     height: 56px;
     text-align: center;
     align-items: center;
@@ -192,7 +208,7 @@ header {
     justify-content: space-around;
   }
 
-  .menu__banner {
+  .menu__bar {
     padding-right: 0;
   }
 
@@ -211,6 +227,8 @@ header {
     background-color: #005cff;
   }
 
+  
+
   .menu__search-mobile {
     padding-top: 27px;
     display: flex;
@@ -220,8 +238,13 @@ header {
   }
 
   .menu__search-mobile input {
-    width: 360px;
+    
+    width: 323px;
     height: 40px;
     padding: 0px 19px;
+  }
+
+  .menu-mobile__icon{
+    background-color: transparent;
   }
 }

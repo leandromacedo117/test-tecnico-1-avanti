@@ -7,6 +7,10 @@
   border: none;
 }
 
+html, body{
+  overflow-x: hidden;
+}
+
 button {
   background-color: #005cff;
   color: #fff;
@@ -40,6 +44,10 @@ article {
   align-items: center;
   justify-content: center;
 }
+
+
+
+
 
 footer {
   height: 597px;
