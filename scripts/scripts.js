@@ -4,7 +4,7 @@ const serviceTela = document.querySelectorAll(".service-tela")
 const navMobile = document.querySelector(".nav-mobile")
 const closeMenuMobile = document.querySelector(".nav-mobile-close")
 const searchBtn = document.querySelectorAll(".search__btn")
-const input = document.
+
 
 console.log('navMobile: ', navMobile)
 console.log('menuMobile: ', menuMobile)
@@ -38,25 +38,58 @@ serviceTela.forEach(item => {
     });
   });
 
-  const inputSearch = document.querySelector(".input-search");
-  const searchResults = document.getElementById("searchResults");
+
+  //search 
+
+function showSearchMessage(searchTerm) {
+
+  document.querySelectorAll('.search-message').forEach(e => e.remove());
   
-  searchBtn.addEventListener("click", () => {
-    const searchTerm = inputSearch.value.trim();
-    
-    if (searchTerm) {
-      // Cria o conteúdo dos resultados
-      searchResults.innerHTML = `
-        <div class="result-item">
-          Você pesquisou por: <strong>${searchTerm}</strong>
-        </div>
-      `;
+
+  const messageDiv = document.createElement('div');
+  messageDiv.className = 'search-message';
+  messageDiv.textContent = `Você buscou por: ${searchTerm}`;
+  
+  // Estilos da mensagem
+  Object.assign(messageDiv.style, {
+      position: 'fixed',
+      top: '20px',
+      left: '50%',
       
-      // Exibe a div de resultados
-      searchResults.classList.add("show");
-      
-      // Limpa o input
-      inputSearch.value = "";
-    }
+      transform: 'translateX(-50%)',
+      backgroundColor: '#000',
+      color: '#fff',
+      padding: '20px 35px',
+      borderRadius: '40px',
+      zIndex: '1000',
+      boxShadow: '0 2px 10px #00000033',
+      fontSize: '14px'
   });
 
+  document.body.appendChild(messageDiv);
+
+
+  setTimeout(() => messageDiv.remove(), 7000);
+}
+
+document.querySelectorAll('.search__btn').forEach(button => {
+  button.addEventListener('click', function(e) {
+      e.preventDefault();
+      const container = this.closest('.menu__search, .menu__search-mobile');
+      const input = container.querySelector('.input-search');
+      const searchTerm = input.value.trim();
+      
+      if(searchTerm) showSearchMessage(searchTerm);
+  });
+});
+
+
+document.querySelectorAll('.input-search').forEach(input => {
+  input.addEventListener('keypress', function(e) {
+      if(e.key === 'Enter') {
+          e.preventDefault();
+          const searchTerm = this.value.trim();
+          if(searchTerm) showSearchMessage(searchTerm);
+      }
+  });
+});

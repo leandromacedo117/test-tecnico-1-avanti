@@ -214,8 +214,10 @@
   }
 
   .service__text{
+
     display: none;
     flex-direction: column;
+   
   }
 
   .service__text h5{
@@ -233,6 +235,7 @@
 
   .show{
     display: flex;
+    
   }
  
  
@@ -240,3 +243,4 @@
 
   
 }
+

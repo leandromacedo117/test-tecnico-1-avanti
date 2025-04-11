@@ -222,7 +222,8 @@
 @media (max-width: 390px) {
   .product {
     max-width: 370px;
-    height: 426px;
+    height: 100%;
+    max-height: 426px;
     padding-top: 56px;
   }
 

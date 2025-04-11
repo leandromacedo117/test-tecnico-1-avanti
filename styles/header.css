@@ -63,6 +63,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  max-width: 579px;
 }
 
 .search__btn{
@@ -80,12 +82,13 @@ header {
 
 .menu__search input {
   height: 38px;
-  width: 594px;
+  width: 540px;
   border-radius: 10px;
   border: 1px;
   font-weight: 600;
   line-height: 100%;
   border: 1px solid #dddddd;
+  padding-right: 30px;
 }
 
 .menu__profile {
@@ -181,11 +184,15 @@ header {
     display: none;
   }
   .tipbar {
-    width: 100%;
-    max-width: 346px;
+    width: 100vw;
     height: 56px;
     text-align: center;
     align-items: center;
+  }
+
+  .text__info p {
+    width: 100%;
+    max-width: 346px;
   }
 
   .slide__text {
@@ -200,12 +207,18 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    max-width: 390px;
+    padding-bottom: 5px;
   }
 
   .navigation-mobile {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 390px;
+   
   }
 
   .menu__bar {
@@ -227,24 +240,38 @@ header {
     background-color: #005cff;
   }
 
+  .cart{
+    padding-right: 26.91px;
+  }
+
   
 
   .menu__search-mobile {
+    
     padding-top: 27px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+   
   }
 
   .menu__search-mobile input {
-    
-    width: 323px;
+ 
+    width: 100%;
+    max-width: 304px;
     height: 40px;
-    padding: 0px 19px;
+    padding: 0px 38px 0 19px;
+  }
+
+  .search__btn{
+    position: absolute;
+    left:88% ;
+    top: 55% ;
   }
 
   .menu-mobile__icon{
     background-color: transparent;
+    padding-left: 16px;
   }
 }
