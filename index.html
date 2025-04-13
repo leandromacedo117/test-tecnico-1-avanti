@@ -39,7 +39,7 @@
 
   <body>
     <header>
-      <!-- Swiper JS -->
+      
       <div class="slides">
         <div class="swiper tipbar">
           <div class="swiper-wrapper slide__text">
@@ -52,7 +52,7 @@
             </div>
             <div class="swiper-slide text__info">
               <p class="">
-                Ganhe <span class="info__value"> R$10,11 </span> de desconto no
+                Ganhe <span class="info__value"> R$10,00 </span> de desconto no
                 seu primeiro pedido. Utilize o cupom
                 <span class="info__italic">DESCONTO10</span>
               </p>
@@ -60,21 +60,23 @@
           </div>
         </div>
       </div>
-
       <!--Menu-->
+     <section>
       <div class="menu">
-        <div class="menu__banner">
+        <div class="menu__bar">
           <img class="logo" src="./assets/header/logo-avanti.svg" />
         </div>
 
         <div class="menu__search">
-          <input type="text" placeholder="Digite o que você procura" />
-          <img src="./assets/header/search.svg" alt="" />
+          <input class="input-search" type="text" placeholder="Digite o que você procura" />
+          <button class="search__btn">
+            <img src="./assets/header/search.svg" alt="" />
+          </button>
         </div>
         <div class="menu__profile">
           <div class="profile__user">
             <img src="/assets/header/user.svg" />
-            <p>Olá, Nome cliente!</p>
+            <p>Olá, <br>Nome cliente!</p>
           </div>
           <div class="menu__shoppingcart">
             <div class="shoppingcart__title">
@@ -84,31 +86,59 @@
           </div>
         </div>
       </div>
+
+      <nav class="nav-mobile">
+        <button class="nav-mobile-close" onClick="close()">Fechar</button>
+        <ul>
+          <li><a href="#" class="nav-mobile__link">Categorias</a></li>
+          <li><a href="#" class="nav-mobile__link">Departamento</a></li>
+          <li><a href="#" class="nav-mobile__link">Departamento</a></li>
+          <li><a href="#" class="nav-mobile__link">Departamento</a></li>
+          <li><a href="#" class="nav-mobile__link">Departamento</a></li>
+          <li><a href="#" class="nav-mobile__link">Departamento</a></li>
+          <li><a href="#" class="nav-mobile__link">Departamento</a></li>
+          <li><a href="#" class="nav-mobile__link">Departamento</a></li>
+          <li><a href="#" class="nav-mobile__link">Departamento</a></li>
+        </ul>
+      </nav>
       <div class="menu-mobile">
         <div class="navigation-mobile">
-          <div class="mobile-menu">
-            <img
-              src="./assets/header/menu-icon-mobile.svg"
-              alt=""
-              id="menu-mobile__icon"
-            />
+          <div class="mobile-menu" >
+            <button class="menu-mobile__icon" class="">
+              <img
+                src="./assets/header/menu-icon-mobile.svg"
+                alt=""
+                
+              />
+            </button>
           </div>
-          <div class="menu__banner">
+          <div class="menu__bar">
             <img class="logo" src="./assets/header/logo-avanti.svg" />
           </div>
 
-          <div class="menu__shoppingcart-mobile">
-            <div class="shoppingcart__title-mobile">
-              <p>2</p>
+          <div class="cart">
+            <div class="menu__shoppingcart-mobile">
+              <div class="shoppingcart__title">
+                <p>2</p>
+              </div>
+              <img src="./assets/header/shopping.svg" width="24" height="24" />
             </div>
-            <img src="./assets/header/shopping.svg" width="24" height="24" />
           </div>
         </div>
-        <div class="menu__search-mobile">
-          <input type="text" placeholder="Digite o que você procura" />
-          <img src="./assets/header/search.svg" alt="" />
-        </div>
+          <div class="menu__search-mobile">
+            <input type="text" placeholder="Digite o que você procura"
+            class="input-search"
+             />
+            <button class="search__btn">
+              <img src="./assets/header/search.svg" alt=""  />
+            </button>
+          </div>
       </div>
+     </section>
+
+      
+
+
       <nav class="category">
         <div
           class="category__department category__department--main category__department--with-children"
@@ -937,7 +967,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-pagination icons-slide"></div>
+           <div class="pagination-slide"> <div class="swiper-pagination icons-slide"></div></div>
             <div class="swiper-button-next">
               <i class="fa-solid fa-arrow-right"></i>
             </div>
@@ -1370,40 +1400,53 @@
             </div>
             <div class="container__service">
               <div class="service-info">
-                <h4>Institucional</h4>
-                <div class="service__text">
+                <div class="service-tela">
+                  <h4>Institucional</h4>
+                  <img
+                  src="./assets/footer/arrowFooter.svg"
+                  class="footer-btn-mobile"
+                  alt=""
+                />
+                </div>
+                <div class="service__text ">
                   <h5>Nossas Lojas</h5>
                   <h5>Privacidade e Segurança</h5>
                   <h5>Termos e Condições</h5>
                 </div>
-                <img
+                
+              </div>
+            </div>
+            <div class="container__service ">
+              <div class="service-info">
+              <div class="service-tela">
+                  <h4>Central de ajuda</h4>
+                  <img
                   src="./assets/footer/arrowFooter.svg"
                   class="footer-btn-mobile"
                   alt=""
                 />
               </div>
-            </div>
-            <div class="container__service">
-              <div class="service-info">
-                <h4>Central de ajuda</h4>
-                <div class="service__text">
+                <div class="service__text ">
                   <h5>Fale Conosco</h5>
                   <h5>Frete e Entrega</h5>
                   <h5>Trocas e Devoluções</h5>
                   <h5>Formas de Pagamento</h5>
                   <h5>FAQ</h5>
                 </div>
-                <img
+               
+              </div>
+            </div>
+            <div class="container__service">
+              <div class="service-info">
+              <div class="service-tela">
+                <h4>Atendimento</h4>
+                 <img
                   src="./assets/footer/arrowFooter.svg"
                   class="footer-btn-mobile"
                   alt=""
                 />
               </div>
-            </div>
-            <div class="container__service">
-              <div class="service-info">
-                <h4>Atendimento</h4>
-                <div class="service__text">
+                <div class="service__text ">
                   <h5>Telefone: (00) 1234-5678</h5>
                   <h5>E-mail: exemplo@exemplo.com.br</h5>
                   <h5>
@@ -1411,72 +1454,71 @@
                     Domingos e Feriados: 07h00 às 21h00
                   </h5>
                 </div>
-                <img
-                  src="./assets/footer/arrowFooter.svg"
-                  class="footer-btn-mobile"
-                  alt=""
-                />
+               
               </div>
             </div>
           </div>
-          <div class="footer__payment">
-            <div class="footer__payment-main">
-              <div class="payment-one">
-                <img src="./assets/footer/payment/amex.svg" alt="" />
-                <img src="./assets/footer/payment/União 32.svg" alt="" />
-                <img src="./assets/footer/payment/visa.svg" alt="" />
-                <img src="./assets/footer/payment/hipercard.svg" alt="" />
-                <img src="./assets/footer/payment/elo.svg" alt="" />
-              </div>
-              <div class="payment-two">
-                <img src="./assets/footer/payment/b.svg" alt="" />
-                <img
-                  src="./assets/footer/payment/paypal-seeklogo.com.svg"
-                  alt=""
-                />
-                <img src="./assets/footer/payment/pix.svg" alt="" />
-                <img src="./assets/footer/payment/boleto.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="footer__message">
-          <p class="text-desktop">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel illum dolore eu feugiat nulla
-            facilisis at vero eros et accumsan et iusto odio dignissim qui
-            blandit praesent luptatum zzril delenit augue duis dolore te feugait
-            nulla facilisi.
-          </p>
-          <p class="text-mobile__message">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
-          </p>
-          <div class="footer__sponsors">
-            <div class="sponsors__container">
-              <img src="./assets/footer/let.svg" alt="" />
-              <img src="./assets/footer/vtex-pci-200.svg" alt="" />
-            </div>
-            <div class="sponsors__container">
-              <img src="./assets/footer/VTEX_Logo (1) 1.svg" alt="" />
-              <img
-                src="./assets/header/logo-avanti.svg"
-                width="57.38"
-                height="10.18"
-              />
+         
+            <div class="footer__payment">
+              <div class="footer__payment-main">
+                <div class="payment-one">
+                  <img src="./assets/footer/payment/amex.svg" alt="" />
+                  <img src="./assets/footer/payment/União 32.svg" alt="" />
+                  <img src="./assets/footer/payment/visa.svg" alt="" />
+                  <img src="./assets/footer/payment/hipercard.svg" alt="" />
+                  <img src="./assets/footer/payment/elo.svg" alt="" />
+                </div>
+                <div class="payment-two">
+                  <img src="./assets/footer/payment/b.svg" alt="" />
+                  <img
+                    src="./assets/footer/payment/paypal-seeklogo.com.svg"
+                    alt=""
+                  />
+                  <img src="./assets/footer/payment/pix.svg" alt="" />
+                  <img src="./assets/footer/payment/boleto.svg" alt="" />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+  
+          <div class="footer__message">
+            <p class="text-desktop">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+              volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+              ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
+              velit esse molestie consequat, vel illum dolore eu feugiat nulla
+              facilisis at vero eros et accumsan et iusto odio dignissim qui
+              blandit praesent luptatum zzril delenit augue duis dolore te feugait
+              nulla facilisi.
+            </p>
+            <p class="text-mobile__message">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+              volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+            </p>
+            <div class="footer__sponsors">
+              <div class="sponsors__container">
+                <img src="./assets/footer/let.svg" alt="" />
+                <img src="./assets/footer/vtex-pci-200.svg" alt="" />
+              </div>
+              <div class="sponsors__container">
+                <img src="./assets/footer/VTEX_Logo (1) 1.svg" alt="" />
+                <img
+                  src="./assets/header/logo-avanti.svg"
+                  width="57.38"
+                  height="10.18"
+                />
+              </div>
+            </div>
+          </div>
       </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./scripts/productSlide.js"></script>
+    <script src="./scripts/slide.js"></script>
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>
