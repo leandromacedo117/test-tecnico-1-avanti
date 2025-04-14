@@ -6,18 +6,7 @@ const closeMenuMobile = document.querySelector(".nav-mobile-close")
 const searchBtn = document.querySelectorAll(".search__btn")
 
 
-console.log('navMobile: ', navMobile)
-console.log('menuMobile: ', menuMobile)
-
-console.log(serviceTela)
-console.log(footerInfo)
-
-function toggleFooter(){
-
-    console.log("clickou")
-    console.log(footerInfo)
-}
-
+//menu
 menuMobile.addEventListener("click", () => {
     console.log('navMobile: ', navMobile)
     navMobile.classList.add("active")
@@ -30,7 +19,7 @@ closeMenuMobile.addEventListener("click", () => {
   })
 
 
-
+//footer 
 serviceTela.forEach(item => {
     item.addEventListener('click', () => {
         const footerText = item.closest('.service-info').querySelector('.service__text');
@@ -40,6 +29,30 @@ serviceTela.forEach(item => {
 
 
   //search 
+document.querySelectorAll('.search__btn').forEach(button => {
+    button.addEventListener('click', function(e) {
+        e.preventDefault();
+        const container = this.closest('.menu__search, .menu__search-mobile');
+        const input = container.querySelector('.input-search');
+        const searchTerm = input.value.trim();
+        
+        if(searchTerm) showSearchMessage(searchTerm);
+    });
+});
+
+document.querySelectorAll('.input-search').forEach(input => {
+  input.addEventListener('keypress', function(e) {
+      if(e.key === 'Enter') {
+          e.preventDefault();
+          const searchTerm = this.value.trim();
+          if(searchTerm) showSearchMessage(searchTerm);
+      }
+  });
+});
+
+
+
+
 
 function showSearchMessage(searchTerm) {
 
@@ -47,7 +60,7 @@ function showSearchMessage(searchTerm) {
   
 
   const messageDiv = document.createElement('div');
-  messageDiv.className = 'search-message';
+  messageDiv.className = 'dsfdsf';
   messageDiv.textContent = `Você buscou por: ${searchTerm}`;
   
   // Estilos da mensagem
@@ -55,7 +68,6 @@ function showSearchMessage(searchTerm) {
       position: 'fixed',
       top: '20px',
       left: '50%',
-      
       transform: 'translateX(-50%)',
       backgroundColor: '#000',
       color: '#fff',
@@ -74,25 +86,3 @@ function showSearchMessage(searchTerm) {
 
   setTimeout(() => messageDiv.remove(), 7000);
 }
-
-document.querySelectorAll('.search__btn').forEach(button => {
-  button.addEventListener('click', function(e) {
-      e.preventDefault();
-      const container = this.closest('.menu__search, .menu__search-mobile');
-      const input = container.querySelector('.input-search');
-      const searchTerm = input.value.trim();
-      
-      if(searchTerm) showSearchMessage(searchTerm);
-  });
-});
-
-
-document.querySelectorAll('.input-search').forEach(input => {
-  input.addEventListener('keypress', function(e) {
-      if(e.key === 'Enter') {
-          e.preventDefault();
-          const searchTerm = this.value.trim();
-          if(searchTerm) showSearchMessage(searchTerm);
-      }
-  });
-});
