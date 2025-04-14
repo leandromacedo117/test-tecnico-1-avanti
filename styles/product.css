@@ -1,8 +1,9 @@
 .product {
   width: 100%;
-  max-width: 1288.4px;
+  max-width: 1290px;
   height: 478px;
   padding: 96px 0;
+  position: relative;
 }
 
 
@@ -215,15 +216,19 @@
   color: #303030;
 }
 
-.swiper-pagination .swiper-pagination-bullet:nth-child(n + 4) {
+.swiper-slide-blank {
   display: none;
 }
 
+/* .swiper-pagination .swiper-pagination-bullet:nth-child(n + 4) {
+  display: none;
+} */
+
 @media (max-width: 390px) {
   .product {
-    max-width: 370px;
+    width: 370px;
     height: 100%;
-    max-height: 426px;
+    max-height:340px;
     padding-top: 56px;
   }
 
