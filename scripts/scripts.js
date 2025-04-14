@@ -28,7 +28,7 @@ serviceTela.forEach(item => {
   });
 
 
-  //search 
+//search 
 document.querySelectorAll('.search__btn').forEach(button => {
     button.addEventListener('click', function(e) {
         e.preventDefault();
@@ -60,7 +60,7 @@ function showSearchMessage(searchTerm) {
   
 
   const messageDiv = document.createElement('div');
-  messageDiv.className = 'dsfdsf';
+  messageDiv.className = 'search-message';
   messageDiv.textContent = `Você buscou por: ${searchTerm}`;
   
   // Estilos da mensagem
