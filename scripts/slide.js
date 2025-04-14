@@ -2,9 +2,10 @@ var shelf = new Swiper(".product-shelf", {
     spaceBetween: 17,  
     centeredSlides: false,
     slidesPerView: 5,
-    loop: true,
+    slidesPerGroup: 3,
+    loop: false,
      autoplay: {
-      delay: 2500,
+      delay: 3000,
        disableOnInteraction: false,
      },
     pagination: {
@@ -17,11 +18,24 @@ var shelf = new Swiper(".product-shelf", {
     }, breakpoints: {
       390:{
         spaceBetween:10,
-        slidesPerView: 2
+        slidesPerView: 2,
+        loop: true,
+        autoplay:{
+          delay: 5000,
+           disableOnInteraction: false,
+         },
       }, 1000: {
         slidesPerView:5
-      }
-    }
+      },
+
+      // 1024:{
+      //   spaceBetween:10,
+      //   slidesPerView: 4
+      // }, 1000: {
+      //   slidesPerView:5
+      // }
+    }, 
+
     
   }); 
 
@@ -31,9 +45,9 @@ var shelf = new Swiper(".product-shelf", {
     centeredSlides: false,
     slidesPerView: 1,
     loop: true,
-    speed: 900,
+    speed: 25000,
     autoplay: {
-      delay: 2500,
+      delay: 200,
        disableOnInteraction: false,
      },
 });

@@ -1,10 +1,13 @@
+.section__signup{
+  padding-top: 64px;
+}
+
 .signup {
   width: 100%;
   max-width: 1260px;
   height: 227px;
   display: flex;
   flex-direction: column;
-  padding: 61px 0 40px 0;
   align-items: center;
   justify-content: center;
   gap: 24px;
@@ -64,6 +67,10 @@ label .signup__link {
 }
 
 @media (max-width: 390px) {
+  .section__signup{
+    padding-top: 56px;
+  }
+
   .signup {
     max-width: 358px;
     height: 330px;
@@ -80,7 +87,7 @@ label .signup__link {
     max-width: 358px;
     height: 284px;
     gap: 16px;
-    background-color: #fff;
+    background-color: #F5F5F5;
   }
 
   .signup__form input[type="text"] {

@@ -59,11 +59,14 @@ function showSearchMessage(searchTerm) {
       transform: 'translateX(-50%)',
       backgroundColor: '#000',
       color: '#fff',
+      width:'80vw',
+      margin: '0 auto',
       padding: '20px 35px',
       borderRadius: '40px',
       zIndex: '1000',
       boxShadow: '0 2px 10px #00000033',
-      fontSize: '14px'
+      fontSize: '14px',
+      'word-break': 'break-work'
   });
 
   document.body.appendChild(messageDiv);
