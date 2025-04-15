@@ -224,20 +224,27 @@
   display: none;
 } */
 
-@media (max-width: 390px) {
+@media (max-width: 1024px) {
   .product {
-    width: 370px;
+    width: 100vw;
     height: 100%;
     max-height:340px;
     padding-top: 56px;
   }
-
   .product-shelf {
     
-    max-width: 358px;
+    width: 100%;
+    padding: 0px 16px;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .product__title{
+    width: 100%;
+    padding: 0px 16px;
+    box-sizing: border-box;
   }
 
   .icons-slide {

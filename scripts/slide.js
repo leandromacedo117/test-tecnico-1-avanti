@@ -16,7 +16,7 @@ var shelf = new Swiper(".product-shelf", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     }, breakpoints: {
-      390:{
+      360:{
         spaceBetween:10,
         slidesPerView: 2,
         loop: true,
@@ -27,13 +27,26 @@ var shelf = new Swiper(".product-shelf", {
       }, 1000: {
         slidesPerView:5
       },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        loop: true,
+        autoplay:{
+          delay: 5000,
+           disableOnInteraction: false,
+         },
+      },
+     
+      1024: {
+        slidesPerView: 5,
+        spaceBetween: 17,
+        loop: true,
+        autoplay:{
+          delay: 5000,
+           disableOnInteraction: false,
+         },
+      },
 
-      // 1024:{
-      //   spaceBetween:10,
-      //   slidesPerView: 4
-      // }, 1000: {
-      //   slidesPerView:5
-      // }
     }, 
 
     

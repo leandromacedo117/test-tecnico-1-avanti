@@ -66,15 +66,17 @@ label .signup__link {
   gap: 10px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 1024px) {
   .section__signup{
     padding-top: 56px;
   }
 
   .signup {
-    max-width: 358px;
+    width: 100vw;
+    padding: 0px 16px;
     height: 330px;
     gap: 16px;
+    box-sizing: border-box;
   }
 
   .signup__title {
@@ -84,17 +86,20 @@ label .signup__link {
   .signup__form {
     display: flex;
     flex-direction: column;
-    max-width: 358px;
+    width: 100%;
+    padding: 0px 16px;
     height: 284px;
     gap: 16px;
     background-color: #F5F5F5;
+    box-sizing: border-box;
   }
 
   .signup__form input[type="text"] {
     font-size: 14px;
-    max-width: 326px;
+    width: 100%;
+    padding: 0px 32px;
+    box-sizing: border-box;
   }
-
   .form__checkbox input {
     font-size: 12px;
   }
@@ -105,6 +110,10 @@ label .signup__link {
 
   .signup__btn {
     width: 100%;
-    max-width: 326px;
+    padding: 0px 32px;
+    box-sizing: border-box;
   }
-}
+  }
+
+ 
+
