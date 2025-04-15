@@ -1,4 +1,10 @@
 .product {
+
+  width: 100%;
+  max-width: 1290px;
+  height: 478px;
+  padding: 96px 0;
+
   width: 100%;
   max-width: 1290px;
   height: 478px;
@@ -8,10 +14,10 @@
 
 
 
-.product-shelf .swiper-slide {
+/* .product-shelf .swiper-slide {
   border-radius: 8px;
   border: 1px solid #ddd;
-}
+} */
 
 .product__title {
   display: flex;
@@ -41,9 +47,8 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  max-width: 1259px;
-  padding: 7px;
-  border-radius: 20px;
+  padding: 0px;
+  border-radius: 10px;
 }
 
 .lint__container__spanNew {
@@ -68,6 +73,7 @@
   width: 100%;
   max-width: 222px;
   height: 222px;
+  border-radius: 10px;
 }
 
 .container__text {
@@ -77,16 +83,15 @@
   width: 100%;
   max-width: 222px;
   height: 101px;
+  padding-left: 8px;
 }
 
 .container__text h3 {
   text-align: left;
-
   width: 100%;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
-  text-align: center;
   color: #303030;
 }
 
@@ -94,7 +99,7 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  padding-left: 8px;
+  
 }
 
 .information__container {
@@ -151,8 +156,8 @@
   width: 100%;
   max-width: 250px;
   display: flex;
-  align-items: center;
-  padding-left: 5px;
+  
+  justify-content: center;
 }
 
 .product__btn {
@@ -226,20 +231,20 @@
 
 @media (max-width: 1024px) {
   .product {
-    width: 100vw;
-    height: 100%;
-    max-height:340px;
-    padding-top: 56px;
-  }
-  .product-shelf {
-    
     width: 100%;
-    padding: 0px 16px;
+    height: 100%;
+    padding: 56px 16px 0;
     box-sizing: border-box;
+  }
+  /* .product-shelf {
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-  }
+  } */
+
+
 
   .product__title{
     width: 100%;
@@ -248,11 +253,13 @@
   }
 
   .icons-slide {
-    padding-left: 12px;
+    padding-left: 0;
   }
   .product__title p a {
     text-decoration: underline;
   }
+
+
 
 
 
@@ -263,27 +270,29 @@
 
   .container__text h3 {
     font-size: 12px;
+    text-align: left;
+    
   }
 
   .product-card {
-    max-width: 174px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+
   }
 
-  .product-card div img {
-    width: 100%;
-    max-width: 158px;
-    height: 158px;
-  }
 
   .card__btn {
-    padding-left: 0px;
+    margin: 0 auto;
+    
   }
+
+  
 
   .product__btn {
     max-width: 158px;
     height: 40px;
   }
-
 
 
   .pagination-slide{
