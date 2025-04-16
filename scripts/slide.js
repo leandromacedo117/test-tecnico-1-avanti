@@ -21,27 +21,31 @@ var shelf = new Swiper(".product-shelf", {
     200: {
       spaceBetween: 10,
       slidesPerView: 2,
-      loopedSlides: 2
+      loopedSlides: 2,
+      loop: true, 
     },
     450: {
       slidesPerView: 2,
       spaceBetween: 20,
-      loopedSlides: 2
+      loopedSlides: 2,
+      loop: true, 
     },
     550: {
       slidesPerView: 3,
       spaceBetween: 10,
-      loopedSlides: 3
+      loopedSlides: 3,
+      loop: true, 
     },
     720: {
       slidesPerView: 4,
       spaceBetween: 10,
-      loopedSlides: 4
+      loopedSlides: 4,
+      loop: true, 
     },
     1024: {
       slidesPerView: 5,
       spaceBetween: 17,
-      loop: false, // Desativa loop em desktop se preferir
+      loop: false, 
       loopedSlides: 0
     }
   }
