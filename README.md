@@ -1,4 +1,4 @@
-# **Teste Técnico Avanti Innovation** 🌟  
+# **Teste Técnico Avanti Innovation** 
 
 **Desafio Front-End:** Implementação de uma interface dinâmica com busca em tempo real e carrossel interativo.  
 
