@@ -2,8 +2,8 @@
 
 **Desafio Front-End:** Implementação de uma interface dinâmica com busca em tempo real e carrossel interativo.  
 
-🔗 **Preview:** [Link do Deploy (se disponível)]  
-📅 **Data de Entrega:** [Data, se aplicável]  
+🔗 **Preview:** [https://test-tecnico-1-avanti.vercel.app/]  
+📅 **Data de Entrega:** [25/05]  
 
 ---
 
