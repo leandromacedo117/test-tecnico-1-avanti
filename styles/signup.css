@@ -1,5 +1,6 @@
 .section__signup{
-  padding-top: 64px;
+  padding-top: 64px ;
+  margin-bottom:40px;
 }
 
 .signup {
@@ -69,6 +70,7 @@ label .signup__link {
 @media (max-width: 1024px) {
   .section__signup{
     padding-top: 56px;
+  
   }
 
   .signup {
@@ -92,6 +94,7 @@ label .signup__link {
     gap: 16px;
     background-color: #F5F5F5;
     box-sizing: border-box;
+    border-radius: 20px;
   }
 
   .signup__form input[type="text"] {

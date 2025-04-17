@@ -71,9 +71,11 @@
 .banner--reverse {
   grid-template-columns: 1fr 652px;
 }
+
 .banner--reverse .banner__img {
   grid-column: 2;
 }
+
 .banner--reverse .banner__text {
   grid-column: 1;
   padding-left: 0;
@@ -90,6 +92,7 @@
   grid-column: span 1;
   grid-row: 1;
 }
+
 .banner__img {
   display: flex;
   align-items: center;
@@ -98,6 +101,7 @@
   grid-column: span 1;
   grid-row: 1;
 }
+
 .banner__img img {
   object-fit: contain;
   width: 100%;
@@ -229,7 +233,7 @@ div .text__titles {
   color: #4f4f4f;
   letter-spacing: calc(18px * 0.05);
   font-weight: 400;
-  
+
 }
 
 .second-banner {
@@ -269,7 +273,7 @@ div .text__titles {
 
 @media (max-width:767px) {
 
-  
+
   .main-banner {
     width: 100vw;
     height: 306px;
@@ -280,6 +284,7 @@ div .text__titles {
     width: 100%;
     position: absolute;
     left: -33.5%;
+    height: 100%;
   }
 
   .main-banner__img {
@@ -289,19 +294,23 @@ div .text__titles {
   }
 
   .main-banner__text {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
     margin-right: 38px;
     max-width: 139px;
     height: 164px;
-    right: -2%;
+    right: -7%;
     position: absolute;
   }
 
   .text__title {
-    max-width: 133px;
+    max-width: 139px;
     height: 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
     flex-direction: column;
   }
 
@@ -309,6 +318,7 @@ div .text__titles {
     font-size: 40px;
     line-height: 40px;
     width: 100%;
+    text-align: center;
   }
 
   .text__title span,
@@ -373,8 +383,9 @@ div .text__titles {
     width: 100%;
     box-sizing: border-box;
     padding: 0px 7.5px;
-    height:  calc(570px * 1.46);
+    height: calc(570px * 1.46);
   }
+
   .banner__text {
     width: 100%;
     padding: 0px 23.5px;
@@ -394,13 +405,13 @@ div .text__titles {
     height: 260px;
   }
 
-  
+
 
   .content-wrapper--gray {
     width: 100vw;
     height: 100%;
     padding-top: 20px;
-   
+
   }
 
   .banner__specification {
@@ -412,7 +423,7 @@ div .text__titles {
 
   .specification {
     gap: 21px;
-  
+
   }
 
   .specification__title {
@@ -444,7 +455,7 @@ div .text__titles {
     line-height: 140%;
     height: 68px;
     letter-spacing: calc(12px * 0.05);
-   
+
   }
 
   .specification__img-main img {
@@ -472,6 +483,7 @@ div .text__titles {
     height: 39px;
     font-size: 16px;
   }
+
   .text-mobile {
     display: block;
   }
@@ -480,12 +492,14 @@ div .text__titles {
     display: none;
   }
 
- 
+
 
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+
+
+
   .banner__specification {
     display: flex;
     align-items: center;
@@ -569,6 +583,7 @@ div .text__titles {
     width: 100%;
     position: absolute;
     left: -20%;
+    height: 100%;
   }
 
   .main-banner__img {
@@ -585,7 +600,7 @@ div .text__titles {
     right: 5%;
     position: absolute;
     text-align: center;
-    
+
   }
 
   .text__title {
@@ -662,7 +677,7 @@ div .text__titles {
     width: 60%;
     box-sizing: border-box;
     padding: 0px 10px;
-    height:  calc(570px * 1.5);
+    height: calc(570px * 1.5);
   }
 
   .banner__title {
@@ -677,6 +692,3 @@ div .text__titles {
     height: 280px;
   }
 }
-
-
-
