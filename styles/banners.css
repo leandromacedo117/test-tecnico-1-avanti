@@ -93,6 +93,8 @@
   grid-row: 1;
 }
 
+
+
 .banner__img {
   display: flex;
   align-items: center;
@@ -349,14 +351,15 @@ div .text__titles {
 
   .banner {
     width: 100vw;
-    padding: 23px 0 0 0;
+    padding: 0px 0 23px 0;
     height: 732px;
     display: flex;
     flex-direction: column;
   }
 
+
   .banner-two {
-    margin-top: 86px;
+    margin-top: 56px;
   }
 
   .banner__text {

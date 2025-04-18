@@ -2,13 +2,13 @@ var shelf = new Swiper(".product-shelf", {
   spaceBetween: 17,
   slidesPerView: 5,
   slidesPerGroup: 3,
-  loop: true,
+  loop: false,
   loopAdditionalSlides: 2, // Adiciona slides extras para melhor transição
   loopedSlides: 5, // Igual ao número de slides visíveis
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+   autoplay: {
+     delay: 3000,
+     disableOnInteraction: false,
+   },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
